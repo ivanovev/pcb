@@ -1,5 +1,48 @@
 # Pin name action command file
 
+# Start of element CAN1
+ChangePinName(CAN1, 1, 1)
+ChangePinName(CAN1, 3, 3)
+ChangePinName(CAN1, 2, 2)
+
+# Start of element SWD1
+ChangePinName(SWD1, 1, 1)
+ChangePinName(SWD1, 4, 4)
+ChangePinName(SWD1, 3, 3)
+ChangePinName(SWD1, 2, 2)
+
+# Start of element USB
+ChangePinName(USB, 1, 1)
+ChangePinName(USB, 4, 4)
+ChangePinName(USB, 3, 3)
+ChangePinName(USB, 2, 2)
+
+# Start of element U7
+ChangePinName(U7, 4, D3)
+ChangePinName(U7, 5, 3.3V)
+ChangePinName(U7, 6, D4)
+ChangePinName(U7, 3, D2)
+ChangePinName(U7, 2, Grd)
+ChangePinName(U7, 1, D1)
+
+# Start of element VFD_BTN
+ChangePinName(VFD_BTN, 11, 11)
+ChangePinName(VFD_BTN, 12, 12)
+ChangePinName(VFD_BTN, 13, 13)
+ChangePinName(VFD_BTN, 14, 14)
+ChangePinName(VFD_BTN, 15, 15)
+ChangePinName(VFD_BTN, 16, 16)
+ChangePinName(VFD_BTN, 6, 6)
+ChangePinName(VFD_BTN, 7, 7)
+ChangePinName(VFD_BTN, 8, 8)
+ChangePinName(VFD_BTN, 9, 9)
+ChangePinName(VFD_BTN, 10, 10)
+ChangePinName(VFD_BTN, 5, 5)
+ChangePinName(VFD_BTN, 1, 1)
+ChangePinName(VFD_BTN, 4, 4)
+ChangePinName(VFD_BTN, 3, 3)
+ChangePinName(VFD_BTN, 2, 2)
+
 # Start of element R9
 ChangePinName(R9, 1, 1)
 ChangePinName(R9, 2, 2)
@@ -340,10 +383,10 @@ ChangePinName(J5, 4, 4)
 ChangePinName(J5, 3, 3)
 ChangePinName(J5, 2, 2)
 
-# Start of element J2
-ChangePinName(J2, 1, 1)
-ChangePinName(J2, 3, 3)
-ChangePinName(J2, 2, 2)
+# Start of element BOOT1
+ChangePinName(BOOT1, 1, 1)
+ChangePinName(BOOT1, 3, 3)
+ChangePinName(BOOT1, 2, 2)
 
 # Start of element R13
 ChangePinName(R13, 1, 1)
@@ -373,10 +416,10 @@ ChangePinName(UEXT, 4, 4)
 ChangePinName(UEXT, 3, 3)
 ChangePinName(UEXT, 2, 2)
 
-# Start of element J1
-ChangePinName(J1, 1, 1)
-ChangePinName(J1, 3, 3)
-ChangePinName(J1, 2, 2)
+# Start of element BOOT0
+ChangePinName(BOOT0, 1, 1)
+ChangePinName(BOOT0, 3, 3)
+ChangePinName(BOOT0, 2, 2)
 
 # Start of element C25
 ChangePinName(C25, 2, 2)
@@ -409,18 +452,6 @@ ChangePinName(J3, 1, 1)
 ChangePinName(J3, 3, 3)
 ChangePinName(J3, 2, 2)
 
-# Start of element USB
-ChangePinName(USB, 1, 1)
-ChangePinName(USB, 5, 5)
-ChangePinName(USB, 4, 4)
-ChangePinName(USB, 3, 3)
-ChangePinName(USB, 2, 2)
-
-# Start of element CAN
-ChangePinName(CAN, 1, 1)
-ChangePinName(CAN, 3, 3)
-ChangePinName(CAN, 2, 2)
-
 # Start of element R7
 ChangePinName(R7, 1, 1)
 ChangePinName(R7, 2, 2)
@@ -428,28 +459,6 @@ ChangePinName(R7, 2, 2)
 # Start of element U5
 ChangePinName(U5, 2, 2)
 ChangePinName(U5, 1, 1)
-
-# Start of element VFD_BTN
-ChangePinName(VFD_BTN, 11, 11)
-ChangePinName(VFD_BTN, 12, 12)
-ChangePinName(VFD_BTN, 13, 13)
-ChangePinName(VFD_BTN, 14, 14)
-ChangePinName(VFD_BTN, 6, 6)
-ChangePinName(VFD_BTN, 7, 7)
-ChangePinName(VFD_BTN, 8, 8)
-ChangePinName(VFD_BTN, 9, 9)
-ChangePinName(VFD_BTN, 10, 10)
-ChangePinName(VFD_BTN, 5, 5)
-ChangePinName(VFD_BTN, 1, 1)
-ChangePinName(VFD_BTN, 4, 4)
-ChangePinName(VFD_BTN, 3, 3)
-ChangePinName(VFD_BTN, 2, 2)
-
-# Start of element SWD
-ChangePinName(SWD, 1, 1)
-ChangePinName(SWD, 4, 4)
-ChangePinName(SWD, 3, 3)
-ChangePinName(SWD, 2, 2)
 
 # Start of element S1
 ChangePinName(S1, 2, 2)
