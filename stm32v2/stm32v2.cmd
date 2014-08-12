@@ -1,5 +1,18 @@
 # Pin name action command file
 
+# Start of element R14
+ChangePinName(R14, 1, 1)
+ChangePinName(R14, 2, 2)
+
+# Start of element TP3
+ChangePinName(TP3, 1, 1)
+
+# Start of element TP2
+ChangePinName(TP2, 1, 1)
+
+# Start of element TP1
+ChangePinName(TP1, 1, 1)
+
 # Start of element CAN1
 ChangePinName(CAN1, 1, 1)
 ChangePinName(CAN1, 3, 3)
