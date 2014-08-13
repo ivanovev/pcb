@@ -5,13 +5,13 @@ FileVersion[20070407]
 
 PCB["" 484252 177165]
 
-Grid[984.3 0 0 0]
-Cursor[139764 42323 0.000000]
+Grid[984.0 928 544 1]
+Cursor[24544 176680 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 1000 1500 1000]
 Flags("nameonpcb,clearnew,snappin")
-Groups("1,c:2:3:4,s:5:6")
+Groups("1,c:2:3:4,s:5")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
 
 Symbol[' ' 1800]
@@ -788,8 +788,7 @@ Symbol['~' 1200]
 )
 Attribute("PCB::grid::unit" "mm")
 Via[99409 8858 3600 2000 0 2000 "" ""]
-Via[27559 157480 24500 2000 0 16000 "" ""]
-Via[27559 19685 24500 2000 0 16000 "" ""]
+Via[27559 19685 24500 2000 0 13500 "" ""]
 Via[76772 133858 3600 2000 0 2000 "" "thermal(1S)"]
 Via[99410 40354 3600 2000 0 2000 "" ""]
 Via[106300 55118 3600 3600 0 2000 "" "thermal(2S)"]
@@ -808,7 +807,7 @@ Via[111273 107354 3600 2000 0 2000 "" "thermal(1S)"]
 Via[218504 137795 3600 4800 0 2000 "" "thermal(0S,2S,4X)"]
 Via[143697 124013 3600 2000 0 2000 "" "thermal(2S)"]
 Via[136754 6843 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[136754 28497 3600 2000 0 2000 "" "thermal(1S)"]
+Via[110179 20229 3600 2000 0 2000 "" "thermal(1S)"]
 Via[177166 63976 3600 2000 0 2000 "" ""]
 Via[167261 84582 3600 2000 0 2000 "" "thermal(1S)"]
 Via[170276 67913 3600 2000 0 2000 "" "thermal(0X,2S)"]
@@ -912,8 +911,6 @@ Via[415354 114173 3600 2000 0 2000 "" "thermal(1S)"]
 Via[384842 121063 3600 2000 0 2000 "" "thermal(2S,3S)"]
 Via[354331 98425 3600 2000 0 2000 "" ""]
 Via[433071 123031 3600 2000 0 2000 "" ""]
-Via[464567 157480 24500 2000 0 16000 "" ""]
-Via[464567 19685 24500 2000 0 16000 "" ""]
 Via[354331 61023 3600 2000 0 2000 "" ""]
 Via[354331 65944 3600 2000 0 2000 "" ""]
 Via[354331 70866 3600 2000 0 2000 "" ""]
@@ -925,38 +922,38 @@ Via[383858 61024 6000 2000 0 3500 "" "thermal(0S,2S,3S)"]
 Via[419291 93504 6000 2000 0 3500 "" "thermal(0S,2S,3S,4X)"]
 Via[450787 62008 6000 2000 0 3500 "" "thermal(1S)"]
 Via[443898 67913 6000 2000 0 3500 "" "thermal(1S)"]
-Via[437008 73819 6000 2000 0 3500 "" ""]
-Via[450787 73819 6000 2000 0 3500 "" ""]
-Via[53150 9843 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[47244 9843 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[41339 9843 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[15748 114173 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[19685 118110 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[23622 122047 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[27559 125984 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[31496 129921 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[59055 9843 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[64961 9843 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[70866 9843 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[437008 73819 6000 2000 0 3500 "" "thermal(1S,4X)"]
+Via[450787 73819 6000 2000 0 3500 "" "thermal(1S)"]
+Via[54134 7874 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[48228 7874 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[42323 7874 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[15748 115157 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[19685 119094 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[23622 123031 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[27559 126969 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[32480 129921 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[60039 7874 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[65945 7874 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[71850 7874 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[29528 79724 3600 2000 0 2000 "" "thermal(0S,2S,3S,4X)"]
 Via[35433 79724 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[41339 79724 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[47244 79724 3600 2000 0 2000 "" "thermal(0S,2S,3S,4X)"]
 Via[469488 97441 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[37402 129921 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[43307 129921 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[49213 129921 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[55118 129921 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[61024 129921 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[61024 135827 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[61024 141732 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[55118 141732 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[49213 141732 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[43307 141732 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[37402 141732 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[31496 141732 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[24606 141732 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[17717 141732 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[38386 129921 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[44291 129921 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[50197 129921 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[56102 129921 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[62008 129921 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[62008 135827 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[62008 141732 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[56102 141732 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[50197 141732 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[44291 141732 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[38386 141732 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[32480 141732 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[25591 141732 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[18701 141732 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[53150 79724 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[353346 157480 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[353346 165354 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
@@ -1001,20 +998,18 @@ Via[240157 6890 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[248031 6890 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[122047 6890 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[114173 6890 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[94488 17717 3600 2000 0 2000 "" "thermal(0S,2S,3S,4X)"]
-Via[102362 17717 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[110236 17717 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[94431 15308 3600 2000 0 2000 "" "thermal(0S,2S,3S,4X)"]
+Via[102305 15308 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[94488 25591 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[102362 25591 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[110236 25591 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[68898 42323 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[76772 42323 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[436024 85630 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[436024 93504 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[46260 149606 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[46260 157480 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[46260 165354 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[46260 173228 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[47244 149606 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[47244 157480 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[47244 165354 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[47244 173228 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[469488 105315 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[469488 113189 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[477362 113189 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
@@ -1023,12 +1018,23 @@ Via[477362 97441 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[477362 89567 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[477362 121063 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[437008 62008 6000 2000 0 3500 "" "thermal(1S)"]
-Via[47244 17717 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[47244 25591 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
-Via[47244 33465 3600 2000 0 2000 "" "thermal(0S,2S,3S,4t)"]
+Via[48228 17717 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[48228 25591 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[21654 38386 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[16732 33465 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
 Via[16732 43307 3600 2000 0 2000 "" "thermal(0S,2S,3S)"]
+Via[375888 108240 3600 2000 0 2000 "" "thermal(0S,2S)"]
+Via[381890 108268 3600 2000 0 2000 "" "thermal(0S,2S)"]
+Via[361220 138780 3600 2000 0 2000 "" "thermal(0S,2S)"]
+Via[365157 142717 3600 2000 0 2000 "" "thermal(0S,2S)"]
+Via[357283 134843 3600 2000 0 2000 "" "thermal(0S,2S)"]
+Via[106299 139764 3600 2000 0 2000 "" "thermal(0S,2S,3S,4X)"]
+Via[110236 143701 3600 2000 0 2000 "" "thermal(0S,2S,3S,4X)"]
+Via[114173 147638 3600 2000 0 2000 "" "thermal(0S,2S,3S,4X)"]
+Via[48228 33465 3600 2000 0 2000 "" "thermal(0S,2S,3S,4t)"]
+Via[27559 157480 24500 2000 0 13500 "" ""]
+Via[468504 157480 24500 2000 0 13500 "" ""]
+Via[468504 19685 24500 2000 0 13500 "" ""]
 
 Element["" "JUMPER3" "BOOT0" "unknown" 58740 19685 27485 -2872 0 100 ""]
 (
@@ -1172,7 +1178,7 @@ Element["" "0603" "C2" "0.1u" 122085 68507 -1809 193 3 100 ""]
 
 	)
 
-Element["" "0603" "C23" "0.1u" 123959 17670 -1771 -3150 3 100 ""]
+Element["" "0603" "C23" "0.1u" 123959 17670 2223 -13733 3 100 ""]
 (
 	Pad[-492 -2559 492 -2559 2952 0 3552 "1" "1" "square"]
 	Pad[-492 2559 492 2559 2952 2000 3552 "2" "2" "square"]
@@ -1825,7 +1831,7 @@ Element["" "BNX016_Murata" "U3" "unknown" 378840 25584 28653 -23622 3 100 ""]
 Element["" "PWL2" "PWL2" "unknown" 416339 29528 1969 -16535 0 100 ""]
 (
 	Pin[0 0 12598 1969 13189 7480 "1" "1" "square"]
-	Pin[15591 0 12598 1969 13189 7480 "2" "2" "thermal(5X)"]
+	Pin[15591 0 12598 1969 13189 7480 "2" "2" ""]
 	ElementLine [-7756 -16535 23346 -16535 787]
 	ElementLine [23346 -16535 23346 20079 787]
 	ElementLine [-7756 20079 23346 20079 787]
@@ -1917,6 +1923,13 @@ Element["" "HR911105" "U6" "unknown" 44280 79704 -3937 11811 1 100 ""]
 	ElementLine [42992 -31496 42992 31496 787]
 	ElementLine [-42992 -31496 42992 -31496 787]
 	ElementLine [-42992 -31496 -42992 31496 787]
+
+	)
+
+Element["" "0603" "R22" "10k" 115691 20229 -5119 2559 0 100 ""]
+(
+	Pad[2559 -492 2559 492 2952 2000 3552 "1" "1" "square"]
+	Pad[-2559 -492 -2559 492 2952 2000 3552 "2" "2" "square"]
 
 	)
 Layer(1 "top")
@@ -2033,8 +2046,6 @@ Layer(1 "top")
 	Line[238189 11811 184149 11811 1000 2000 "clearline"]
 	Line[129274 9796 123959 15111 1000 2000 ""]
 	Line[154766 9796 129274 9796 1000 2000 ""]
-	Line[129274 25544 123959 20229 1000 2000 "clearline"]
-	Line[164609 25544 129274 25544 1000 2000 "clearline"]
 	Line[217503 63976 213509 59982 1000 2000 "clearline"]
 	Line[179134 65944 177166 63976 1000 2000 "clearline"]
 	Line[212599 65944 179134 65944 1000 2000 "clearline"]
@@ -2510,13 +2521,12 @@ Layer(1 "top")
 	Line[17712 49217 26575 40354 1000 2000 "clearline"]
 	Line[26575 40354 30512 40354 1000 2000 "clearline"]
 	Line[30512 40354 30512 40354 1000 2000 "clearline"]
+	Line[129274 25544 123959 20229 1000 2000 "clearline"]
+	Line[123959 20229 118250 20229 1000 2000 "clearline"]
+	Line[129274 25544 165298 25544 1000 2000 "clearline"]
 	Polygon("")
 	(
 		[244095 56102] [291339 56102] [291339 103346] [244095 103346] 
-	)
-	Polygon("clearpoly")
-	(
-		[0 0] [484252 0] [484252 177165] [0 177165] 
 	)
 )
 Layer(2 "power")
@@ -2872,19 +2882,16 @@ Layer(4 "bottom")
 )
 Layer(5 "outline")
 (
-	Line[7874 0 7874 177165 600 1200 "clearline"]
-	Line[7874 177165 484252 177165 600 1200 "clearline"]
-	Line[7874 0 484252 0 600 1200 "clearline"]
 	Line[484252 0 484252 177165 600 1200 "clearline"]
+	Line[11811 0 11811 177165 600 1200 "clearline"]
+	Line[11811 177165 484252 177165 600 1200 "clearline"]
 	Line[484252 177165 484252 177165 600 1200 "clearline"]
+	Line[484252 0 11811 0 600 1200 "clearline"]
 )
-Layer(6 "spare")
+Layer(6 "silk")
 (
 )
 Layer(7 "silk")
-(
-)
-Layer(8 "silk")
 (
 )
 NetList()
@@ -2903,7 +2910,6 @@ NetList()
 		Connect("C15-1")
 		Connect("C19-2")
 		Connect("C22-2")
-		Connect("C23-2")
 		Connect("C26-2")
 		Connect("FB1-1")
 		Connect("FB3-1")
@@ -2913,7 +2919,6 @@ NetList()
 		Connect("R2-2")
 		Connect("R4-1")
 		Connect("R5-2")
-		Connect("R6-2")
 		Connect("R11-2")
 		Connect("R12-2")
 		Connect("R13-2")
@@ -2922,7 +2927,7 @@ NetList()
 		Connect("R19-1")
 		Connect("R20-2")
 		Connect("R21-2")
-		Connect("S1-1")
+		Connect("R22-2")
 		Connect("SWD1-1")
 		Connect("TP2-1")
 		Connect("U1-11")
@@ -3431,117 +3436,124 @@ NetList()
 	)
 	Net("unnamed_net6" "(unknown)")
 	(
+		Connect("C23-2")
+		Connect("R6-2")
+		Connect("R22-1")
+		Connect("S1-1")
+	)
+	Net("unnamed_net7" "(unknown)")
+	(
 		Connect("R6-1")
 		Connect("U1-14")
 	)
-	Net("unnamed_net7" "(unknown)")
+	Net("unnamed_net8" "(unknown)")
 	(
 		Connect("C25-2")
 		Connect("R8-1")
 		Connect("U5-1")
 	)
-	Net("unnamed_net8" "(unknown)")
+	Net("unnamed_net9" "(unknown)")
 	(
 		Connect("C24-2")
 		Connect("U1-12")
 		Connect("U5-2")
 	)
-	Net("unnamed_net9" "(unknown)")
+	Net("unnamed_net10" "(unknown)")
 	(
 		Connect("R7-2")
 		Connect("U1-94")
 	)
-	Net("unnamed_net10" "(unknown)")
+	Net("unnamed_net11" "(unknown)")
 	(
 		Connect("BOOT0-2")
 		Connect("R7-1")
 	)
-	Net("unnamed_net11" "(unknown)")
+	Net("unnamed_net12" "(unknown)")
 	(
 		Connect("R10-2")
 		Connect("U1-37")
 	)
-	Net("unnamed_net12" "(unknown)")
+	Net("unnamed_net13" "(unknown)")
 	(
 		Connect("BOOT1-2")
 		Connect("R10-1")
 	)
-	Net("unnamed_net13" "(unknown)")
+	Net("unnamed_net14" "(unknown)")
 	(
 		Connect("R8-2")
 		Connect("U1-13")
 	)
-	Net("unnamed_net14" "(unknown)")
+	Net("unnamed_net15" "(unknown)")
 	(
 		Connect("C27-2")
 		Connect("U1-49")
 	)
-	Net("unnamed_net15" "(unknown)")
+	Net("unnamed_net16" "(unknown)")
 	(
 		Connect("C28-2")
 		Connect("U1-73")
 	)
-	Net("unnamed_net16" "(unknown)")
+	Net("unnamed_net17" "(unknown)")
 	(
 		Connect("R1-1")
 		Connect("U2-29")
 		Connect("U6-1")
 	)
-	Net("unnamed_net17" "(unknown)")
+	Net("unnamed_net18" "(unknown)")
 	(
 		Connect("R2-1")
 		Connect("U2-28")
 		Connect("U6-2")
 	)
-	Net("unnamed_net18" "(unknown)")
+	Net("unnamed_net19" "(unknown)")
 	(
 		Connect("C7-2")
 		Connect("U6-5")
 	)
-	Net("unnamed_net19" "(unknown)")
+	Net("unnamed_net20" "(unknown)")
 	(
 		Connect("R20-1")
 		Connect("U2-31")
 		Connect("U6-3")
 	)
-	Net("unnamed_net20" "(unknown)")
+	Net("unnamed_net21" "(unknown)")
 	(
 		Connect("R21-1")
 		Connect("U2-30")
 		Connect("U6-6")
 	)
-	Net("unnamed_net21" "(unknown)")
+	Net("unnamed_net22" "(unknown)")
 	(
 		Connect("R15-1")
 		Connect("U2-3")
 	)
-	Net("unnamed_net22" "(unknown)")
+	Net("unnamed_net23" "(unknown)")
 	(
 		Connect("R3-1")
 		Connect("U2-2")
 	)
-	Net("unnamed_net23" "(unknown)")
+	Net("unnamed_net24" "(unknown)")
 	(
 		Connect("R16-2")
 		Connect("U2-32")
 	)
-	Net("unnamed_net24" "(unknown)")
+	Net("unnamed_net25" "(unknown)")
 	(
 		Connect("R17-2")
 		Connect("U2-9")
 	)
-	Net("unnamed_net25" "(unknown)")
+	Net("unnamed_net26" "(unknown)")
 	(
 		Connect("R18-2")
 		Connect("U2-18")
 	)
-	Net("unnamed_net26" "(unknown)")
+	Net("unnamed_net27" "(unknown)")
 	(
 		Connect("C5-2")
 		Connect("C6-2")
 		Connect("U2-6")
 	)
-	Net("unnamed_net27" "(unknown)")
+	Net("unnamed_net28" "(unknown)")
 	(
 		Connect("C2-2")
 		Connect("C3-2")
@@ -3549,43 +3561,43 @@ NetList()
 		Connect("U2-1")
 		Connect("U2-27")
 	)
-	Net("unnamed_net28" "(unknown)")
+	Net("unnamed_net29" "(unknown)")
 	(
 		Connect("U1-7")
 	)
-	Net("unnamed_net29" "(unknown)")
+	Net("unnamed_net30" "(unknown)")
 	(
 		Connect("U1-8")
 	)
-	Net("unnamed_net30" "(unknown)")
+	Net("unnamed_net31" "(unknown)")
 	(
 		Connect("U1-9")
 	)
-	Net("unnamed_net31" "(unknown)")
+	Net("unnamed_net32" "(unknown)")
 	(
 		Connect("D3-1")
 		Connect("U1-58")
 	)
-	Net("unnamed_net32" "(unknown)")
+	Net("unnamed_net33" "(unknown)")
 	(
 		Connect("D3-2")
 		Connect("R9-2")
 	)
-	Net("unnamed_net33" "(unknown)")
+	Net("unnamed_net34" "(unknown)")
 	(
 		Connect("VFD_BTN-9")
 	)
-	Net("unnamed_net34" "(unknown)")
+	Net("unnamed_net35" "(unknown)")
 	(
 		Connect("U7-6")
 		Connect("USB-2")
 	)
-	Net("unnamed_net35" "(unknown)")
+	Net("unnamed_net36" "(unknown)")
 	(
 		Connect("R14-1")
 		Connect("U7-5")
 	)
-	Net("unnamed_net36" "(unknown)")
+	Net("unnamed_net37" "(unknown)")
 	(
 		Connect("U7-4")
 		Connect("USB-3")
