@@ -1,0 +1,4 @@
+elements-dir /home/iev/geda/footprints
+elements-dir /home/iev/geda/cvs/www/user/evgeny_ivanov/footprints
+schematics xmastree.sch
+output-name xmastree
