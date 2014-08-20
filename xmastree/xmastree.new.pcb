@@ -10,20 +10,14 @@ DRC[1000 1000 1000 1000 1500 1000]
 Flags("nameonpcb,uniquename,clearnew,snappin")
 Groups("1,c:2:3:4:5:6,s:7:8")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
-Element(0x00 "JUMPER4" "SWD" "unknown" 0 0 3 100 0x00)
+
+Element["" "KX38" "U5" "unknown" 0 0 1500um -2500um 0 60 ""]
 (
-	Pin(50 50 60 38 "1" 0x101)
-	 Pin(50 150 60 38 "2" 0x01)
-	 Pin(50 250 60 38 "3" 0x01)
-	 Pin(50 350 60 38 "4" 0x01)
-	ElementLine(0 0 0 400 10)
-	ElementLine(0 400 100 400 10)
-	ElementLine(100 400 100 0 10)
-	ElementLine(100 0 0 0 10)
-	ElementLine(0 100 100 100 10)
-	ElementLine(100 100 100 0 10)
-	Mark(50 50)
+    ElementArc[0 0 1500um 1500um 0 360 200um]
+	Pin[550um 0 800um 600um 1400um 400um "" "1" ""]
+	Pin[-550um 0 800um 600um 1400um 400um "" "2" ""]
 )
+
 Layer(1 "top")
 (
 )
