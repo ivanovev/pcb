@@ -1,5 +1,39 @@
 # Pin name action command file
 
+# Start of element R14
+ChangePinName(R14, 1, 1)
+ChangePinName(R14, 2, 2)
+
+# Start of element R13
+ChangePinName(R13, 1, 1)
+ChangePinName(R13, 2, 2)
+
+# Start of element D2
+ChangePinName(D2, 2, 2)
+ChangePinName(D2, 1, 1)
+
+# Start of element D1
+ChangePinName(D1, 2, 2)
+ChangePinName(D1, 1, 1)
+
+# Start of element J1
+ChangePinName(J1, 11, 11)
+ChangePinName(J1, 12, 12)
+ChangePinName(J1, 13, 13)
+ChangePinName(J1, 14, 14)
+ChangePinName(J1, 15, 15)
+ChangePinName(J1, 16, 16)
+ChangePinName(J1, 6, 6)
+ChangePinName(J1, 7, 7)
+ChangePinName(J1, 8, 8)
+ChangePinName(J1, 9, 9)
+ChangePinName(J1, 10, 10)
+ChangePinName(J1, 5, 5)
+ChangePinName(J1, 1, 1)
+ChangePinName(J1, 4, 4)
+ChangePinName(J1, 3, 3)
+ChangePinName(J1, 2, 2)
+
 # Start of element S6
 ChangePinName(S6, 4, 4)
 ChangePinName(S6, 2, 2)
@@ -115,19 +149,3 @@ ChangePinName(VFD, 3, 3)
 ChangePinName(VFD, 6, 6)
 ChangePinName(VFD, 5, 5)
 ChangePinName(VFD, 4, 4)
-
-# Start of element J1
-ChangePinName(J1, 11, 11)
-ChangePinName(J1, 12, 12)
-ChangePinName(J1, 13, 13)
-ChangePinName(J1, 14, 14)
-ChangePinName(J1, 6, 6)
-ChangePinName(J1, 7, 7)
-ChangePinName(J1, 8, 8)
-ChangePinName(J1, 9, 9)
-ChangePinName(J1, 10, 10)
-ChangePinName(J1, 5, 5)
-ChangePinName(J1, 1, 1)
-ChangePinName(J1, 4, 4)
-ChangePinName(J1, 3, 3)
-ChangePinName(J1, 2, 2)

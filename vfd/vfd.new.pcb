@@ -10,42 +10,31 @@ DRC[1000 1000 1000 1000 1500 1000]
 Flags("nameonpcb,uniquename,clearnew,snappin")
 Groups("1,c:2:3:4:5:6,s:7:8")
 Styles["Signal,1000,3600,2000,1000:Power,2500,6000,3500,1000:Fat,4000,6000,3500,1000:Skinny,600,2402,1181,600"]
-Element["" "GP1183A01B" "VFD" "unknown" 0 0 -3000um -1000um 0 100 ""]
+Element(0x00 "HEADER16_2" "J1" "unknown" 0 0 3 100 0x00)
 (
-    ElementLine[-40000um -18000um 40000um -18000um 200um]
-    ElementLine[40000um -18000um 40000um 18000um 200um]
-    ElementLine[40000um 18000um -40000um 18000um 200um]
-    ElementLine[-40000um 18000um -40000um -18000um 200um]
-    Pin[37500um 15500um 5000um 2000um 7000um 3000um "" "" ""]
-    Pin[37500um -15500um 5000um 2000um 7000um 3000um "" "" ""]
-    Pin[-37500um -15500um 5000um 2000um 7000um 3000um "" "" ""]
-    Pin[-37500um 15500um 5000um 2000um 7000um 3000um "" "" ""]
-
-    Pin[19300um -13500um 1520um 760um 1680um 970um "1" "1" ""]
-    Pin[21840um -13500um 1520um 760um 1680um 970um "2" "2" ""]
-    Pin[24380um -13500um 1520um 760um 1680um 970um "3" "3" ""]
-    Pin[26920um -13500um 1520um 760um 1680um 970um "4" "4" ""]
-    Pin[29460um -13500um 1520um 760um 1680um 970um "5" "5" ""]
-    Pin[32000um -13500um 1520um 760um 1680um 970um "6" "6" ""]
-
-    Pin[-32000um -13500um 1520um 760um 1680um 970um "" "" ""]
-    Pin[-29460um -13500um 1520um 760um 1680um 970um "" "" ""]
-    Pin[-26920um -13500um 1520um 760um 1680um 970um "" "" ""]
-    Pin[-24380um -13500um 1520um 760um 1680um 970um "" "" ""]
-    Pin[-21840um -13500um 1520um 760um 1680um 970um "" "" ""]
-    Pin[-19300um -13500um 1520um 760um 1680um 970um "" "" ""]
-    Pin[-16760um -13500um 1520um 760um 1680um 970um "" "" ""]
-    Pin[-14220um -13500um 1520um 760um 1680um 970um "" "" ""]
-    Pin[-11780um -13500um 1520um 760um 1680um 970um "" "" ""]
-    Pin[-9240um -13500um 1520um 760um 1680um 970um "" "" ""]
-    Pin[-6700um -13500um 1520um 760um 1680um 970um "" "" ""]
-    Pin[-4160um -13500um 1520um 760um 1680um 970um "" "" ""]
-    Pin[-1620um -13500um 1520um 760um 1680um 970um "" "" ""]
-    Pin[920um -13500um 1520um 760um 1680um 970um "" "" ""]
-    ElementLine[-26250um -5725um 26250um -5725um 200um]
-    ElementLine[26250um -5725um 26250um 5725um 200um]
-    ElementLine[26250um 5725um -26250um 5725um 200um]
-    ElementLine[-26250um 5725um -26250um -5725um 200um]
+	Pin(50 50 60 38 "1" 0x101)
+	Pin(150 50 60 38 "2" 0x01)
+	 Pin(50 150 60 38 "3" 0x01)
+	Pin(150 150 60 38 "4" 0x01)
+	 Pin(50 250 60 38 "5" 0x01)
+	Pin(150 250 60 38 "6" 0x01)
+	 Pin(50 350 60 38 "7" 0x01)
+	Pin(150 350 60 38 "8" 0x01)
+	 Pin(50 450 60 38 "9" 0x01)
+	Pin(150 450 60 38 "10" 0x01)
+	 Pin(50 550 60 38 "11" 0x01)
+	Pin(150 550 60 38 "12" 0x01)
+	 Pin(50 650 60 38 "13" 0x01)
+	Pin(150 650 60 38 "14" 0x01)
+	 Pin(50 750 60 38 "15" 0x01)
+	Pin(150 750 60 38 "16" 0x01)
+	ElementLine(0 0 0 800 10)
+	ElementLine(0 800 200 800 10)
+	ElementLine(200 800 200 0 10)
+	ElementLine(200 0 0 0 10)
+	ElementLine(0 100 100 100 10)
+	ElementLine(100 100 100 0 10)
+	Mark(50 50)
 )
 Layer(1 "top")
 (
