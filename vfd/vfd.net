@@ -1,24 +1,27 @@
-unnamed_net10	R14-1 D2-2 
-unnamed_net9	R13-1 D1-2 
-LED1	D1-1 J1-13 
-LED2	D2-1 J1-15 
-unnamed_net8	J1-9 
-unnamed_net7	S6-3 R12-2 
-unnamed_net6	S5-3 R11-2 
-unnamed_net5	S4-3 R10-2 
-unnamed_net4	S3-3 R9-2 
-unnamed_net3	S2-3 R8-2 
-unnamed_net2	S1-3 R7-2 
-BTN6	J1-12 S6-1 C6-2 R6-1 
-BTN5	J1-10 S5-1 C5-2 R5-1 
-BTN4	J1-8 S4-1 C4-2 R4-1 
-BTN3	J1-6 S3-1 C3-2 R3-1 
-BTN2	J1-4 S2-1 C2-2 R2-1 
-BTN1	J1-2 S1-1 C1-2 R1-1 
-3V3	J1-14 R6-2 R5-2 R4-2 R3-2 R2-2 R1-2 
-5V	J1-1 VFD-1 
-VFD_SIN	J1-3 VFD-2 
-AGND	R14-2 R13-2 J1-16 J1-5 R12-1 R11-1 R10-1 R9-1 R8-1 R7-1 C6-1 C5-1 C4-1 C3-1 C2-1 C1-1 VFD-3 
-VFD_RESET_N	J1-11 VFD-6 
-unnamed_net1	VFD-5 
-VFD_SBUSY	J1-7 VFD-4 
+unnamed_net13	U2-8 R15-2 
+unnamed_net12	J2-2 R14-2 
+unnamed_net11	J2-1 R13-2 
+VFD_RESET_N	U2-2 J1-11 
+LED1	R13-1 J1-13 
+LED2	R14-1 J1-15 
+VFD_SBUSY	U2-3 J1-7 
+unnamed_net10	J1-9 
+VFD_SIN	U2-4 J1-3 
+unnamed_net9	S2-4 S2-3 R12-2 
+unnamed_net8	S1-4 S1-3 R11-2 
+unnamed_net7	S5-4 S5-3 R10-2 
+unnamed_net6	S3-4 S3-3 R9-2 
+unnamed_net5	S4-4 S4-3 R8-2 
+unnamed_net4	J3-2 R7-2 
+BTN6	J1-12 S2-2 S2-1 C6-2 R6-1 
+BTN5	J1-10 S1-2 S1-1 C5-2 R5-1 
+BTN4	J1-8 S5-2 S5-1 C4-2 R4-1 
+BTN3	J1-6 S3-2 S3-1 C3-2 R3-1 
+BTN2	J1-4 S4-2 S4-1 C2-2 R2-1 
+BTN1	J1-2 J3-1 C1-2 R1-1 
+3V3	U2-1 R15-1 J1-14 R6-2 R5-2 R4-2 R3-2 R2-2 R1-2 
+5V	J1-1 U2-14 VFD-1 
+unnamed_net3	U2-11 VFD-2 
+AGND	J2-3 U2-7 U2-5 J1-16 J1-5 R12-1 R11-1 R10-1 R9-1 R8-1 R7-1 C6-1 C5-1 C4-1 C3-1 C2-1 C1-1 VFD-3 
+unnamed_net2	U2-13 VFD-6 
+unnamed_net1	U2-12 VFD-4 

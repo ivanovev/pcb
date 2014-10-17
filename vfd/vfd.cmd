@@ -1,5 +1,58 @@
 # Pin name action command file
 
+# Start of element S5
+ChangePinName(S5, 4, 4)
+ChangePinName(S5, 2, 2)
+ChangePinName(S5, 3, 3)
+ChangePinName(S5, 1, 1)
+
+# Start of element S1
+ChangePinName(S1, 4, 4)
+ChangePinName(S1, 2, 2)
+ChangePinName(S1, 3, 3)
+ChangePinName(S1, 1, 1)
+
+# Start of element S2
+ChangePinName(S2, 4, 4)
+ChangePinName(S2, 2, 2)
+ChangePinName(S2, 3, 3)
+ChangePinName(S2, 1, 1)
+
+# Start of element S4
+ChangePinName(S4, 4, 4)
+ChangePinName(S4, 2, 2)
+ChangePinName(S4, 3, 3)
+ChangePinName(S4, 1, 1)
+
+# Start of element J3
+ChangePinName(J3, 1, 1)
+ChangePinName(J3, 2, 2)
+
+# Start of element J2
+ChangePinName(J2, 1, 1)
+ChangePinName(J2, 3, 3)
+ChangePinName(J2, 2, 2)
+
+# Start of element U2
+ChangePinName(U2, 8, OE)
+ChangePinName(U2, 9, NC)
+ChangePinName(U2, 10, B4)
+ChangePinName(U2, 11, B3)
+ChangePinName(U2, 12, B2)
+ChangePinName(U2, 13, B1)
+ChangePinName(U2, 14, Vccb)
+ChangePinName(U2, 7, GND)
+ChangePinName(U2, 6, NC)
+ChangePinName(U2, 5, A4)
+ChangePinName(U2, 4, A3)
+ChangePinName(U2, 3, A2)
+ChangePinName(U2, 2, A1)
+ChangePinName(U2, 1, Vcca)
+
+# Start of element R15
+ChangePinName(R15, 1, 1)
+ChangePinName(R15, 2, 2)
+
 # Start of element R14
 ChangePinName(R14, 1, 1)
 ChangePinName(R14, 2, 2)
@@ -7,14 +60,6 @@ ChangePinName(R14, 2, 2)
 # Start of element R13
 ChangePinName(R13, 1, 1)
 ChangePinName(R13, 2, 2)
-
-# Start of element D2
-ChangePinName(D2, 2, 2)
-ChangePinName(D2, 1, 1)
-
-# Start of element D1
-ChangePinName(D1, 2, 2)
-ChangePinName(D1, 1, 1)
 
 # Start of element J1
 ChangePinName(J1, 11, 11)
@@ -34,41 +79,11 @@ ChangePinName(J1, 4, 4)
 ChangePinName(J1, 3, 3)
 ChangePinName(J1, 2, 2)
 
-# Start of element S6
-ChangePinName(S6, 4, 4)
-ChangePinName(S6, 2, 2)
-ChangePinName(S6, 3, 3)
-ChangePinName(S6, 1, 1)
-
-# Start of element S5
-ChangePinName(S5, 4, 4)
-ChangePinName(S5, 2, 2)
-ChangePinName(S5, 3, 3)
-ChangePinName(S5, 1, 1)
-
-# Start of element S4
-ChangePinName(S4, 4, 4)
-ChangePinName(S4, 2, 2)
-ChangePinName(S4, 3, 3)
-ChangePinName(S4, 1, 1)
-
 # Start of element S3
 ChangePinName(S3, 4, 4)
 ChangePinName(S3, 2, 2)
 ChangePinName(S3, 3, 3)
 ChangePinName(S3, 1, 1)
-
-# Start of element S2
-ChangePinName(S2, 4, 4)
-ChangePinName(S2, 2, 2)
-ChangePinName(S2, 3, 3)
-ChangePinName(S2, 1, 1)
-
-# Start of element S1
-ChangePinName(S1, 4, 4)
-ChangePinName(S1, 2, 2)
-ChangePinName(S1, 3, 3)
-ChangePinName(S1, 1, 1)
 
 # Start of element R12
 ChangePinName(R12, 1, 1)
