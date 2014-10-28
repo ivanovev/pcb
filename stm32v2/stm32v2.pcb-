@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["" 488189 177165]
 
 Grid[2500.0 1654 1575 1]
-Cursor[134154 176575 0.000000]
+Cursor[346654 94075 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[1000 1000 1000 1000 1500 1000]
@@ -2573,7 +2573,7 @@ Layer(1 "top")
 	(
 		[158465 90551] [158465 104331] [161417 104331] [168307 97441] [161417 90551] 
 	)
-	Polygon("clearpoly")
+	Polygon("clearpoly,selected")
 	(
 		[15748 0] [488189 0] [488189 177165] [15748 177165] 
 	)
@@ -2921,7 +2921,7 @@ Layer(4 "bottom")
 	Line[441654 161575 436654 156575 1000 2000 "clearline"]
 	Line[436654 156575 436654 147007 1000 2000 "clearline"]
 	Line[436654 147007 418584 128937 1000 2000 "clearline"]
-	Text[209646 79724 0 185 "iev123@zoho.com" "clearline,selected,onsolder"]
+	Text[209646 79724 0 185 "iev123@zoho.com" "clearline,onsolder"]
 	Polygon("clearpoly")
 	(
 		[15748 0] [488189 0] [488189 177165] [15748 177165] 
