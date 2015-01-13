@@ -1,0 +1,4 @@
+elements-dir /home/stitch/geda/footprints
+elements-dir /home/stitch/geda/gedasymbols/footprints
+schematics stm32v3.sch
+output-name stm32v3
