@@ -16,9 +16,9 @@ ChangePinName(S1, 1, 1)
 ChangePinName(C19, 2, 2)
 ChangePinName(C19, 1, 1)
 
-# Start of element R18
-ChangePinName(R18, 1, 1)
-ChangePinName(R18, 2, 2)
+# Start of element R17
+ChangePinName(R17, 1, 1)
+ChangePinName(R17, 2, 2)
 
 # Start of element C7
 ChangePinName(C7, 2, 2)
@@ -62,9 +62,9 @@ ChangePinName(U4, 1, A0)
 ChangePinName(R21, 1, 1)
 ChangePinName(R21, 2, 2)
 
-# Start of element BOOT2
-ChangePinName(BOOT2, 1, 1)
-ChangePinName(BOOT2, 2, 2)
+# Start of element BOOT0
+ChangePinName(BOOT0, 1, 1)
+ChangePinName(BOOT0, 2, 2)
 
 # Start of element R20
 ChangePinName(R20, 1, 1)
@@ -321,9 +321,9 @@ ChangePinName(VFD_BTN, 4, 4)
 ChangePinName(VFD_BTN, 3, 3)
 ChangePinName(VFD_BTN, 2, 2)
 
-# Start of element R17
-ChangePinName(R17, 1, 1)
-ChangePinName(R17, 2, 2)
+# Start of element R18
+ChangePinName(R18, 1, 1)
+ChangePinName(R18, 2, 2)
 
 # Start of element D2
 ChangePinName(D2, 2, 2)
