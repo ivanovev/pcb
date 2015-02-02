@@ -3,7 +3,7 @@
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20091103]
 
-PCB["" 124.0000mm 55.0000mm]
+PCB["" 124.0000mm 45.0000mm]
 
 Grid[984.251969 0.0000 0.0000 1]
 PolyArea[200000000.000000]
@@ -2655,6 +2655,10 @@ Layer(1 "top")
 	(
 		[68.7500mm 27.2500mm] [59.2500mm 27.2500mm] [59.2500mm 17.7500mm] [68.7500mm 17.7500mm] 
 	)
+	Polygon("clearpoly")
+	(
+		[157.48mil 0.0000] [124.0000mm 0.0000] [124.0000mm 44.9999mm] [157.48mil 44.9999mm] 
+	)
 )
 Layer(2 "power")
 (
@@ -3099,6 +3103,10 @@ Layer(4 "bottom")
 	Line[65.0000mm 35.5000mm 65.7500mm 34.7500mm 10.00mil 20.00mil "clearline"]
 	Line[67.7500mm 34.7500mm 65.7500mm 34.7500mm 10.00mil 20.00mil "clearline"]
 	Text[54.5000mm 33.7500mm 3 122 "IEV123@ZOHO.COM" "clearline,onsolder"]
+	Polygon("clearpoly")
+	(
+		[157.48mil 0.0000] [124.0000mm 0.0000] [124.0000mm 44.9999mm] [157.48mil 44.9999mm] 
+	)
 )
 Layer(5 "outline")
 (
@@ -3136,6 +3144,7 @@ NetList()
 		Connect("FB2-1")
 		Connect("FB3-1")
 		Connect("J1-1")
+		Connect("P1-1")
 		Connect("R1-2")
 		Connect("R2-2")
 		Connect("R3-2")
@@ -3167,7 +3176,6 @@ NetList()
 		Connect("U6-100")
 		Connect("UEXT-1")
 		Connect("VFD_BTN-14")
-		Connect("P1-1")
 	)
 	Net("5V" "(unknown)")
 	(
