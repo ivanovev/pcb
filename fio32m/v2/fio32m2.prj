@@ -1,0 +1,3 @@
+elements-dir /home/iev/geda/gedasymbols/footprints
+schematics fio32m2.sch
+output-name fio32m2

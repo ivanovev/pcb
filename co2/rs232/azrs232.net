@@ -1,0 +1,15 @@
+unnamed_net12	U1-2 C7-2 
+unnamed_net11	U1-4 C6-2 
+unnamed_net10	U1-5 C6-1 
+unnamed_net9	U1-6 C5-2 
+unnamed_net8	U1-1 C4-2 
+unnamed_net7	U1-3 C4-1 
+unnamed_net6	U1-10 P1-1 R2-1 
+unnamed_net5	C2-2 U2-5 
+unnamed_net4	R1-1 U2-3 
+Vcc	R2-2 C8-2 U1-16 C3-2 C2-1 R1-2 U2-1 
+unnamed_net3	C1-1 U2-6 D1-2 D2-2 U2-2 
+RXD	U1-7 CONN1-2 
+unnamed_net2	D2-1 CONN1-7 
+unnamed_net1	D1-1 CONN1-4 
+AGND	C8-1 U1-15 C7-1 C5-1 P2-1 C3-1 C1-2 U2-4 CONN1-5 
