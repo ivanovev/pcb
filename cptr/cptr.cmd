@@ -1,5 +1,13 @@
 # Pin name action command file
 
+# Start of element C29
+ChangePinName(C29, 2, 2)
+ChangePinName(C29, 1, 1)
+
+# Start of element C28
+ChangePinName(C28, 2, 2)
+ChangePinName(C28, 1, 1)
+
 # Start of element D9
 ChangePinName(D9, 1, cathode)
 ChangePinName(D9, 2, anode)
