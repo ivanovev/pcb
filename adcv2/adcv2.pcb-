@@ -843,10 +843,10 @@ Via[17.7500mm 38.5000mm 0.9000mm 20.00mil 0.0000 0.4000mm "" ""]
 Via[17.7500mm 44.0000mm 0.9000mm 20.00mil 0.0000 0.4000mm "" ""]
 Via[19.0000mm 44.0000mm 0.9000mm 20.00mil 0.0000 0.4000mm "" "thermal(4X)"]
 Via[15.7500mm 46.7500mm 0.9000mm 20.00mil 0.0000 0.4000mm "" "thermal(1S)"]
-Via[3.0000mm 66.0000mm 230.00mil 20.00mil 0.0000 125.00mil "" ""]
-Via[42.0000mm 66.0000mm 230.00mil 20.00mil 0.0000 125.00mil "" ""]
-Via[42.0000mm 3.0000mm 230.00mil 20.00mil 0.0000 125.00mil "" ""]
-Via[3.0000mm 3.0000mm 230.00mil 20.00mil 0.0000 125.00mil "" ""]
+Via[3.0000mm 66.0000mm 230.00mil 30.00mil 0.0000 125.00mil "" ""]
+Via[42.0000mm 66.0000mm 230.00mil 30.00mil 0.0000 125.00mil "" ""]
+Via[42.0000mm 3.0000mm 230.00mil 30.00mil 0.0000 125.00mil "" ""]
+Via[3.0000mm 3.0000mm 230.00mil 30.00mil 0.0000 125.00mil "" ""]
 Via[26.5000mm 41.0000mm 0.7000mm 12.00mil 0.0000 11.81mil "" "thermal(2S)"]
 Via[26.5000mm 42.5000mm 0.7000mm 12.00mil 0.0000 11.81mil "" "thermal(1S)"]
 Via[24.6500mm 43.7500mm 0.9000mm 0.5580mm 0.0000 0.4000mm "" "thermal(1S)"]
@@ -2267,7 +2267,7 @@ Layer(3 "ground")
 )
 Layer(4 "bottom")
 (
-	Line[33.2000mm 33.5000mm 33.2000mm 35.5000mm 25.00mil 20.00mil "clearline"]
+	Line[33.2000mm 33.5000mm 33.2000mm 35.5000mm 25.00mil 20.00mil ""]
 	Line[34.5000mm 33.5000mm 34.5000mm 35.5000mm 25.00mil 20.00mil "clearline"]
 	Line[19.7500mm 36.7500mm 20.4000mm 36.1000mm 10.00mil 20.00mil "clearline"]
 	Line[20.4000mm 35.7500mm 20.4000mm 36.1000mm 10.00mil 20.00mil "clearline"]
