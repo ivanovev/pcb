@@ -804,7 +804,7 @@ Via[21.5000mm 36.5000mm 0.7000mm 12.00mil 0.0000 11.81mil "" "thermal(1S)"]
 Via[22.7500mm 34.7500mm 0.7000mm 20.00mil 0.0000 0.3000mm "" ""]
 Via[40.4300mm 7.8300mm 60.00mil 20.00mil 0.0000 38.00mil "" "thermal(1S)"]
 Via[28.2500mm 61.5000mm 0.9000mm 20.00mil 0.0000 0.4000mm "" "thermal(0S,2S,3S)"]
-Via[36.5000mm 66.2500mm 0.9000mm 20.00mil 0.0000 0.4000mm "" "thermal(0S,2S,3S)"]
+Via[36.5000mm 67.0000mm 0.9000mm 20.00mil 0.0000 0.4000mm "" "thermal(0S,2S,3S)"]
 Via[30.9172mm 60.7688mm 0.9000mm 20.00mil 0.0000 0.4000mm "" "thermal(0S,2S,3S)"]
 Via[31.5000mm 52.2500mm 60.00mil 20.00mil 0.0000 38.00mil "" "thermal(1S)"]
 Via[28.2500mm 54.0000mm 0.9000mm 22.00mil 0.0000 0.4000mm "" "thermal(0S,2S,3S)"]
@@ -982,6 +982,8 @@ Via[26.0000mm 67.0000mm 0.9000mm 20.00mil 0.0000 0.4000mm "" "thermal(0S,2S,3S,4
 Via[29.0000mm 49.0000mm 0.9000mm 20.00mil 0.0000 0.4000mm "" "thermal(0S,2S,3S,4X)"]
 Via[29.0000mm 51.0000mm 0.9000mm 20.00mil 0.0000 0.4000mm "" "thermal(0S,2S,3S,4X)"]
 Via[22.5000mm 57.2500mm 0.9000mm 20.00mil 0.0000 0.4000mm "" "thermal(0S,2S,3S)"]
+Via[29.0000mm 57.0000mm 0.9000mm 20.00mil 0.0000 0.4000mm "" "thermal(0S,2S,3S,4X)"]
+Via[29.0000mm 59.0000mm 0.9000mm 20.00mil 0.0000 0.4000mm "" "thermal(0S,2S,3S,4X)"]
 
 Element["" "IPX" "IPX4" "unknown" 1.9750mm 47.0000mm -0.5000mm -0.8000mm 0 100 ""]
 (
