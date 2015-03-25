@@ -192,14 +192,6 @@ ChangePinName(U2, 3, EN)
 ChangePinName(U2, 2, GND)
 ChangePinName(U2, 1, VCC)
 
-# Start of element D2
-ChangePinName(D2, 2, 2)
-ChangePinName(D2, 1, 1)
-
-# Start of element R25
-ChangePinName(R25, 1, 1)
-ChangePinName(R25, 2, 2)
-
 # Start of element D1
 ChangePinName(D1, 2, 2)
 ChangePinName(D1, 1, 1)
@@ -207,6 +199,14 @@ ChangePinName(D1, 1, 1)
 # Start of element R24
 ChangePinName(R24, 1, 1)
 ChangePinName(R24, 2, 2)
+
+# Start of element D2
+ChangePinName(D2, 2, 2)
+ChangePinName(D2, 1, 1)
+
+# Start of element R25
+ChangePinName(R25, 1, 1)
+ChangePinName(R25, 2, 2)
 
 # Start of element R26
 ChangePinName(R26, 1, 1)
@@ -375,6 +375,7 @@ ChangePinName(C18, 2, 2)
 ChangePinName(C18, 1, 1)
 
 # Start of element U4
+ChangePinName(U4, 145, EPAD)
 ChangePinName(U4, 79, GND)
 ChangePinName(U4, 22, GND)
 ChangePinName(U4, 4, GND)
