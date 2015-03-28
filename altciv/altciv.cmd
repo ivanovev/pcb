@@ -564,14 +564,6 @@ ChangePinName(C15, 1, 1)
 ChangePinName(R17, 1, 1)
 ChangePinName(R17, 2, 2)
 
-# Start of element R22
-ChangePinName(R22, 1, 1)
-ChangePinName(R22, 2, 2)
-
-# Start of element R19
-ChangePinName(R19, 1, 1)
-ChangePinName(R19, 2, 2)
-
 # Start of element J2
 ChangePinName(J2, 31, 31)
 ChangePinName(J2, 32, 32)
