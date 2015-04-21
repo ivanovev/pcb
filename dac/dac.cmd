@@ -71,10 +71,6 @@ ChangePinName(R13, 2, 2)
 ChangePinName(R9, 1, 1)
 ChangePinName(R9, 2, 2)
 
-# Start of element R14
-ChangePinName(R14, 1, 1)
-ChangePinName(R14, 2, 2)
-
 # Start of element R12
 ChangePinName(R12, 1, 1)
 ChangePinName(R12, 2, 2)
@@ -205,9 +201,9 @@ ChangePinName(U5, 6, NR/SS)
 ChangePinName(U5, 5, EN)
 ChangePinName(U5, 8, IN)
 
-# Start of element SMA1
-ChangePinName(SMA1, 2, 2)
-ChangePinName(SMA1, 1, 1)
+# Start of element IPX1
+ChangePinName(IPX1, 2, 2)
+ChangePinName(IPX1, 1, 1)
 
 # Start of element C1
 ChangePinName(C1, 2, 2)
