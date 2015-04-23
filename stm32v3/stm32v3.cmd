@@ -1,5 +1,24 @@
 # Pin name action command file
 
+# Start of element CONN1
+ChangePinName(CONN1, 11, 11)
+ChangePinName(CONN1, 12, 12)
+ChangePinName(CONN1, 10, 10)
+ChangePinName(CONN1, 9, 9)
+ChangePinName(CONN1, 8, GND)
+ChangePinName(CONN1, 6, R-)
+ChangePinName(CONN1, 3, R+)
+ChangePinName(CONN1, 5, 5)
+ChangePinName(CONN1, 2, T-)
+ChangePinName(CONN1, 1, T+)
+ChangePinName(CONN1, 4, 4)
+
+# Start of element CONN2
+ChangePinName(CONN2, 4, GND)
+ChangePinName(CONN2, 3, D+)
+ChangePinName(CONN2, 2, D-)
+ChangePinName(CONN2, 1, VCC)
+
 # Start of element TP3
 ChangePinName(TP3, 1, 1)
 
@@ -152,19 +171,6 @@ ChangePinName(C20, 1, 1)
 ChangePinName(U7, 2, 2)
 ChangePinName(U7, 1, 1)
 
-# Start of element U1
-ChangePinName(U1, 11, 11)
-ChangePinName(U1, 12, 12)
-ChangePinName(U1, 10, 10)
-ChangePinName(U1, 9, 9)
-ChangePinName(U1, 8, GND)
-ChangePinName(U1, 6, R-)
-ChangePinName(U1, 3, R+)
-ChangePinName(U1, 5, 5)
-ChangePinName(U1, 2, T-)
-ChangePinName(U1, 1, T+)
-ChangePinName(U1, 4, 4)
-
 # Start of element U6
 ChangePinName(U6, 20, VSSA)
 ChangePinName(U6, 99, VSS)
@@ -288,12 +294,6 @@ ChangePinName(SWD1, 1, 1)
 ChangePinName(SWD1, 4, 4)
 ChangePinName(SWD1, 3, 3)
 ChangePinName(SWD1, 2, 2)
-
-# Start of element USB
-ChangePinName(USB, 1, 1)
-ChangePinName(USB, 4, 4)
-ChangePinName(USB, 3, 3)
-ChangePinName(USB, 2, 2)
 
 # Start of element U8
 ChangePinName(U8, 4, D3)
