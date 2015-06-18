@@ -1,5 +1,41 @@
 # Pin name action command file
 
+# Start of element U6
+ChangePinName(U6, 5, ASDI)
+ChangePinName(U6, 6, DCLK)
+ChangePinName(U6, 7, Vcc)
+ChangePinName(U6, 8, Vcc)
+ChangePinName(U6, 4, GND)
+ChangePinName(U6, 3, Vcc)
+ChangePinName(U6, 2, DATA)
+ChangePinName(U6, 1, \_nCS\_)
+
+# Start of element U7
+ChangePinName(U7, 9, Vcc)
+ChangePinName(U7, 10, GND)
+ChangePinName(U7, 11, NC)
+ChangePinName(U7, 12, NC)
+ChangePinName(U7, 13, NC)
+ChangePinName(U7, 14, NC)
+ChangePinName(U7, 15, ASDI)
+ChangePinName(U7, 16, DCLK)
+ChangePinName(U7, 8, DATA)
+ChangePinName(U7, 7, \_nCS\_)
+ChangePinName(U7, 6, NC)
+ChangePinName(U7, 5, NC)
+ChangePinName(U7, 4, NC)
+ChangePinName(U7, 3, NC)
+ChangePinName(U7, 2, Vcc)
+ChangePinName(U7, 1, Vcc)
+
+# Start of element D3
+ChangePinName(D3, 2, 2)
+ChangePinName(D3, 1, 1)
+
+# Start of element R19
+ChangePinName(R19, 1, 1)
+ChangePinName(R19, 2, 2)
+
 # Start of element C10
 ChangePinName(C10, 2, 2)
 ChangePinName(C10, 1, 1)
@@ -645,31 +681,3 @@ ChangePinName(J5, 1, 1)
 ChangePinName(J5, 4, 4)
 ChangePinName(J5, 3, 3)
 ChangePinName(J5, 2, 2)
-
-# Start of element U7
-ChangePinName(U7, 9, Vcc)
-ChangePinName(U7, 10, GND)
-ChangePinName(U7, 11, NC)
-ChangePinName(U7, 12, NC)
-ChangePinName(U7, 13, NC)
-ChangePinName(U7, 14, NC)
-ChangePinName(U7, 15, ASDI)
-ChangePinName(U7, 16, DCLK)
-ChangePinName(U7, 8, DATA)
-ChangePinName(U7, 7, \_nCS\_)
-ChangePinName(U7, 6, NC)
-ChangePinName(U7, 5, NC)
-ChangePinName(U7, 4, NC)
-ChangePinName(U7, 3, NC)
-ChangePinName(U7, 2, Vcc)
-ChangePinName(U7, 1, Vcc)
-
-# Start of element U6
-ChangePinName(U6, 5, ASDI)
-ChangePinName(U6, 6, DCLK)
-ChangePinName(U6, 7, Vcc)
-ChangePinName(U6, 8, Vcc)
-ChangePinName(U6, 4, GND)
-ChangePinName(U6, 3, Vcc)
-ChangePinName(U6, 2, DATA)
-ChangePinName(U6, 1, \_nCS\_)
