@@ -250,9 +250,9 @@ C 37500 48400 1 0 1 header4-2.sym
 T 37500 48400 5 10 0 1 0 0 1
 footprint=KXOV97
 T 37500 48400 5 10 0 1 0 0 1
-device=XTAL_ETH
+device=XTAL_50M
 T 37200 49300 5 10 1 1 0 6 1
-refdes=XTAL_ETH
+refdes=XTAL_50M
 }
 C 35500 48400 1 90 0 capacitor-1.sym
 {
