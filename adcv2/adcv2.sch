@@ -140,7 +140,7 @@ refdes=C21
 T 37000 46200 5 10 1 1 180 0 1
 value=10u
 T 36900 46800 5 10 0 1 0 0 1
-footprint=0603
+footprint=0805
 }
 C 37500 46800 1 270 0 capacitor-1.sym
 {
