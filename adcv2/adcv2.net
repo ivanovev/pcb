@@ -3,8 +3,8 @@ unnamed_net39	R9-1 IPX4-1
 unnamed_net38	R8-1 IPX3-1 
 unnamed_net37	R11-2 R9-2 R12-2 
 unnamed_net36	R8-2 R10-2 
-unnamed_net35	R25-2 D1-1 
-unnamed_net34	R27-2 D3-1 
+unnamed_net35	D1-1 R27-2 
+unnamed_net34	R25-2 D3-1 
 unnamed_net33	R26-2 D2-1 
 unnamed_net32	R19-1 U3-5 
 unnamed_net31	U3-3 C7-2 
@@ -53,8 +53,8 @@ DA11	U6-55 J2-34
 DA12	U6-56 J2-35 
 DA13	U6-57 J2-36 
 unnamed_net3	D2-2 J2-39 
-unnamed_net2	D3-2 J2-37 
-unnamed_net1	D1-2 J2-40 
+unnamed_net2	D1-2 J2-37 
+unnamed_net1	D3-2 J2-40 
 OTR_A	U6-58 J2-38 
 DA04	U6-46 J2-26 
 DA07	U6-49 J2-27 
