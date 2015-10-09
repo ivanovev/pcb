@@ -1,5 +1,28 @@
 # Pin name action command file
 
+# Start of element C109
+ChangePinName(C109, 2, 2)
+ChangePinName(C109, 1, 1)
+
+# Start of element C108
+ChangePinName(C108, 2, 2)
+ChangePinName(C108, 1, 1)
+
+# Start of element U8
+ChangePinName(U8, 10, GND)
+ChangePinName(U8, 11, GND)
+ChangePinName(U8, 12, GND)
+ChangePinName(U8, 13, EP)
+ChangePinName(U8, 9, PORT_2)
+ChangePinName(U8, 8, GND)
+ChangePinName(U8, 7, PORT_1)
+ChangePinName(U8, 6, GND)
+ChangePinName(U8, 5, GND)
+ChangePinName(U8, 4, GND)
+ChangePinName(U8, 1, GND)
+ChangePinName(U8, 2, PORT_S)
+ChangePinName(U8, 3, GND)
+
 # Start of element U3
 ChangePinName(U3, 5, GND3)
 ChangePinName(U3, 1, GND2)
@@ -966,21 +989,6 @@ ChangePinName(U11, 4, BYPASS)
 ChangePinName(U11, 5, Vout)
 ChangePinName(U11, 3, ON/\_OFF\_)
 ChangePinName(U11, 1, Vin)
-
-# Start of element U8
-ChangePinName(U8, 10, GND)
-ChangePinName(U8, 11, GND)
-ChangePinName(U8, 12, GND)
-ChangePinName(U8, 13, EP)
-ChangePinName(U8, 9, PORT_2)
-ChangePinName(U8, 8, GND)
-ChangePinName(U8, 7, PORT_1)
-ChangePinName(U8, 6, GND)
-ChangePinName(U8, 5, GND)
-ChangePinName(U8, 4, GND)
-ChangePinName(U8, 1, GND)
-ChangePinName(U8, 2, PORT_S)
-ChangePinName(U8, 3, GND)
 
 # Start of element R36
 ChangePinName(R36, 1, 1)
