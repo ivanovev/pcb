@@ -1713,7 +1713,7 @@ device=CAPACITOR
 T 54600 47800 5 10 0 0 90 0 1
 symversion=0.1
 T 55500 47600 5 10 0 1 0 0 1
-footprint=0603
+footprint=0402
 T 55200 48200 5 10 1 1 0 6 1
 refdes=C58
 T 55200 47900 5 10 1 1 180 0 1
@@ -1726,7 +1726,7 @@ device=CAPACITOR
 T 55300 47400 5 10 0 0 90 0 1
 symversion=0.1
 T 56200 47200 5 10 0 1 0 0 1
-footprint=0603
+footprint=0402
 T 55900 47800 5 10 1 1 0 6 1
 refdes=C61
 T 55900 47500 5 10 1 1 180 0 1
