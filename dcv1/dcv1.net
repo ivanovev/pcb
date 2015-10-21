@@ -1,47 +1,49 @@
-unnamed_net118	U8-9 C34-2 
-unnamed_net117	R64-2 D2-1 
-unnamed_net116	R63-2 D1-1 
-unnamed_net115	C59-2 U13-5 
-unnamed_net114	R30-1 U19-7 
-unnamed_net113	C87-2 U18-5 
-unnamed_net112	R23-1 U16-3 
-unnamed_net111	U16-5 C73-2 
-unnamed_net110	IPX3-1 C43-2 
-unnamed_net109	IPX4-1 C94-1 
-unnamed_net108	T1-5 C92-1 
-unnamed_net107	R12-2 C18-2 C16-2 C15-2 L3-2 
-unnamed_net106	R9-2 C13-2 C12-2 C11-2 L2-2 
-unnamed_net105	U8-2 C21-1 
-unnamed_net104	R5-1 U1-5 
-unnamed_net103	R3-1 U1-3 
-unnamed_net102	U3-6 L1-2 C6-2 
-unnamed_net101	IPX1-1 C3-2 
-unnamed_net100	U3-3 C3-1 
-unnamed_net99	IPX9-1 U21-20 
-unnamed_net98	IPX8-1 U21-17 
-unnamed_net97	IPX7-1 U21-18 
-unnamed_net96	IPX6-1 U21-23 
-unnamed_net95	IPX5-1 U21-24 
+unnamed_net120	U8-9 C34-2 
+unnamed_net119	R64-2 D2-1 
+unnamed_net118	R63-2 D1-1 
+unnamed_net117	C59-2 U13-5 
+unnamed_net116	R30-1 U19-7 
+unnamed_net115	C87-2 U18-5 
+unnamed_net114	R23-1 U16-3 
+unnamed_net113	U16-5 C73-2 
+unnamed_net112	IPX3-1 C43-2 
+unnamed_net111	IPX4-1 C94-1 
+unnamed_net110	T1-5 C92-1 
+unnamed_net109	R12-2 C18-2 C16-2 C15-2 L3-2 
+unnamed_net108	R9-2 C13-2 C12-2 C11-2 L2-2 
+unnamed_net107	U8-2 C21-1 
+unnamed_net106	R5-1 U1-5 
+unnamed_net105	R3-1 U1-3 
+unnamed_net104	U3-6 L1-2 C6-2 
+unnamed_net103	IPX1-1 C3-2 
+unnamed_net102	U3-3 C3-1 
+unnamed_net101	IPX9-1 U21-20 
+unnamed_net100	IPX8-1 U21-17 
+unnamed_net99	IPX7-1 U21-18 
+unnamed_net98	IPX6-1 U21-23 
+unnamed_net97	IPX5-1 U21-24 
 VCM	R68-1 U21-27 U14-12 
-unnamed_net94	U21-11 U14-4 
-unnamed_net93	U21-10 U14-5 
-unnamed_net92	U21-31 U14-6 
-unnamed_net91	U21-30 U14-7 
+unnamed_net96	U21-11 U14-4 
+unnamed_net95	U21-10 U14-5 
+unnamed_net94	U21-31 U14-6 
+unnamed_net93	U21-30 U14-7 
 REFIN	C47-1 U14-39 
-unnamed_net90	C108-1 C43-1 U14-22 
-unnamed_net89	C109-2 C34-1 U14-29 
-unnamed_net88	U1-6 R2-1 R6-2 
-unnamed_net87	U1-2 R1-1 R4-2 
+unnamed_net92	C108-1 C43-1 U14-22 
+unnamed_net91	C109-2 C34-1 U14-29 
+unnamed_net90	U1-6 R2-1 R6-2 
+unnamed_net89	U1-2 R1-1 R4-2 
 SPI_SDIO	U14-13 R46-1 U24-3 
-unnamed_net86	R42-1 R46-2 U24-6 
-MUXOUT	R64-1 TP5-1 U14-16 U26-18 
-unnamed_net85	U26-20 
+unnamed_net88	R42-1 R46-2 U24-6 
+SPI_CS2	R29-1 U21-3 U26-15 
+unnamed_net87	U26-18 
+unnamed_net86	U26-20 
+MUXOUT	R64-1 TP5-1 U14-16 U26-22 
 SPI_CS1	R19-1 U14-15 U26-23 
-SPI_CS2	R29-1 U21-3 U26-24 
+unnamed_net85	U26-24 
 unnamed_net84	R59-2 U26-10 
-VFCTL	R5-2 U26-11 
-VBWCTL	R3-2 U26-12 
-unnamed_net83	TP13-1 U26-13 
+unnamed_net83	TP13-1 U26-11 
+VFCTL	R5-2 U26-12 
+VBWCTL	R3-2 U26-13 
 unnamed_net82	R62-1 U26-9 
 unnamed_net81	R61-1 U26-8 
 unnamed_net80	R58-1 U26-7 
@@ -76,11 +78,11 @@ unnamed_net62	U21-15 C99-2
 unnamed_net61	U21-26 C98-2 
 3V3_3	R57-1 TP9-1 C89-1 C87-1 U18-3 U18-2 U18-1 R29-2 U21-32 U21-1 C91-2 U21-12 U21-16 U21-25 U21-29 U21-8 C74-2 C71-2 C68-2 C65-2 C64-2 R34-1 
 OFDS	U26-27 U21-14 R34-2 
-RFSW	U26-22 U14-20 R17-1 
+RFSW	U26-21 U14-20 R17-1 
 5V	R45-1 TP4-1 C60-1 C59-1 U13-3 U13-2 U13-1 R12-1 R9-1 R8-2 U3-4 C5-2 C4-1 L1-1 R7-2 C10-2 C9-1 U5-17 
 unnamed_net60	L2-1 C14-2 U5-29 
 unnamed_net59	R8-1 U5-24 
-SPI_CS0	U26-21 R7-1 U5-27 
+SPI_CS0	U26-16 R7-1 U5-27 
 unnamed_net58	U5-12 C7-1 
 unnamed_net57	U5-10 C17-2 
 unnamed_net56	U5-9 C20-2 
