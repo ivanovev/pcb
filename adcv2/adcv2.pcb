@@ -1069,7 +1069,7 @@ Element["" "PWL2" "J1" "PWL2" 37.2500mm 70.0000mm -2.0000mm 2.5500mm 0 100 ""]
 
 	)
 
-Element["" "HEADER40_2" "J2" "unknown" 3.2300mm 13.3700mm 0.9849mm -3.2450mm 0 100 ""]
+Element["" "HEADER40_2" "J2" "HEADER40" 3.2300mm 13.3700mm 0.9849mm -3.2450mm 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 40.00mil 66.00mil 38.00mil "1" "1" "square"]
 	Pin[100.00mil 0.0000 60.00mil 46.00mil 66.00mil 38.00mil "2" "2" ""]
