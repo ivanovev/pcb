@@ -1195,7 +1195,7 @@ Element["" "NT3225SA" "U7" "NT3225SA-24M" 13.5750mm 3.1500mm -0.6500mm -0.6000mm
 
 	)
 
-Element["" "JUMPER1" "TP1" "TESTPOINT" 9.0000mm 9.0000mm -1.0200mm -2.9800mm 0 100 ""]
+Element["" "JUMPER1" "TP1" "JUMPER1" 9.0000mm 9.0000mm -1.0200mm -2.9800mm 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,thermal(0X,1X,3X)"]
 	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
@@ -1214,7 +1214,7 @@ Element["" "0603" "C94" "10n" 31.1501mm 312.00mil -31.50mil -31.50mil 0 100 ""]
 
 	)
 
-Element["" "JUMPER1" "TP5" "TESTPOINT" 39.7500mm 58.5000mm -50.00mil -2.7300mm 0 100 ""]
+Element["" "JUMPER1" "TP5" "JUMPER1" 39.7500mm 58.5000mm -50.00mil -2.7300mm 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
 	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
@@ -1290,7 +1290,7 @@ Element["" "QFN32_5_EP" "U21" "ADRF6516ACPZ" 19.0000mm 37.5000mm -216.69mil -3.2
 
 	)
 
-Element["" "JUMPER1" "TP2" "TESTPOINT" 9.0000mm 24.0000mm -50.00mil 50.00mil 0 100 ""]
+Element["" "JUMPER1" "TP2" "JUMPER1" 9.0000mm 24.0000mm -50.00mil 50.00mil 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,thermal(2X)"]
 	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
@@ -1847,7 +1847,7 @@ Element["" "0603" "R32" "10k" 45.3000mm 4.0752mm -31.50mil -31.50mil 0 100 ""]
 
 	)
 
-Element["" "JUMPER1" "TP7" "TESTPOINT" 16.5000mm 14.7500mm -0.0200mm -2.9800mm 0 100 ""]
+Element["" "JUMPER1" "TP7" "JUMPER1" 16.5000mm 14.7500mm -0.0200mm -2.9800mm 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
 	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
@@ -2156,7 +2156,7 @@ Element["" "0805" "C79" "10u" 49.6001mm 5.0000mm -31.50mil -31.50mil 0 100 ""]
 
 	)
 
-Element["" "JUMPER1" "TP4" "TESTPOINT" 61.2500mm 7.2500mm 1.7500mm -0.7500mm 0 100 ""]
+Element["" "JUMPER1" "TP4" "JUMPER1" 61.2500mm 7.2500mm 1.7500mm -0.7500mm 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
 	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
@@ -2175,7 +2175,7 @@ Element["" "0603" "C52" "1u" 50.5000mm 7.9000mm -31.50mil 31.50mil 1 100 ""]
 
 	)
 
-Element["" "JUMPER1" "TP3" "TESTPOINT" 47.7500mm 7.2500mm -3.7500mm 0.5000mm 0 100 ""]
+Element["" "JUMPER1" "TP3" "JUMPER1" 47.7500mm 7.2500mm -3.7500mm 0.5000mm 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
 	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
@@ -2194,7 +2194,7 @@ Element["" "0603" "C85" "100p" 49.8500mm 2.5000mm -31.50mil -31.50mil 0 100 ""]
 
 	)
 
-Element["" "0603" "C49" "0.01u" 53.9000mm 2.5000mm -31.50mil -31.50mil 0 100 ""]
+Element["" "0603" "C49" "10n" 53.9000mm 2.5000mm -31.50mil -31.50mil 0 100 ""]
 (
 	Pad[25.59mil -4.92mil 25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "1" "1" "square"]
 	Pad[-25.59mil -4.92mil -25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "2" "2" "square"]
@@ -2284,7 +2284,7 @@ Element["" "0603" "C39" "1u" 15.8500mm 17.0000mm -31.50mil -31.50mil 0 100 ""]
 
 	)
 
-Element["" "JUMPER1" "TP9" "TESTPOINT" 22.7500mm 30.5000mm -50.00mil 50.00mil 0 100 ""]
+Element["" "JUMPER1" "TP9" "JUMPER1" 22.7500mm 30.5000mm -50.00mil 50.00mil 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,thermal(2S)"]
 	ElementLine [50.00mil 50.00mil 50.00mil -50.00mil 10.00mil]
@@ -2386,7 +2386,7 @@ Element["" "0603" "R65" "10k" 28.0000mm 60.4000mm -31.50mil 31.50mil 1 100 ""]
 
 	)
 
-Element["" "JUMPER1" "TP14" "TESTPOINT" 32.7500mm 58.5000mm -1.7700mm -2.7300mm 0 100 ""]
+Element["" "JUMPER1" "TP14" "JUMPER1" 32.7500mm 58.5000mm -1.7700mm -2.7300mm 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
 	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
@@ -2414,7 +2414,7 @@ Element["" "0603" "C102" "0.1u" 7.2500mm 56.4000mm -31.50mil 31.50mil 1 100 ""]
 
 	)
 
-Element["" "0603" "C101" "0.01u" 9.2500mm 56.4000mm -31.50mil 31.50mil 1 100 ""]
+Element["" "0603" "C101" "10n" 9.2500mm 56.4000mm -31.50mil 31.50mil 1 100 ""]
 (
 	Pad[-4.92mil 25.59mil 4.92mil 25.59mil 29.52mil 20.00mil 35.52mil "1" "1" "square"]
 	Pad[-4.92mil -25.59mil 4.92mil -25.59mil 29.52mil 20.00mil 35.52mil "2" "2" "square"]
@@ -2435,7 +2435,7 @@ Element["" "0603" "R55" "XXX" 15.0000mm 49.0000mm -31.50mil -31.50mil 0 100 ""]
 
 	)
 
-Element["" "JUMPER1" "TP10" "TESTPOINT" 2.2500mm 55.7500mm -50.00mil -2.7300mm 0 100 ""]
+Element["" "JUMPER1" "TP10" "JUMPER1" 2.2500mm 55.7500mm -50.00mil -2.7300mm 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
 	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
@@ -2461,7 +2461,7 @@ Element["" "0603" "R30" "100k" 2.7500mm 65.2500mm -31.50mil -31.50mil 0 100 ""]
 
 	)
 
-Element["" "JUMPER1" "TP12" "TESTPOINT" 9.7500mm 49.0000mm -1.7700mm -2.7300mm 0 100 ""]
+Element["" "JUMPER1" "TP12" "JUMPER1" 9.7500mm 49.0000mm -1.7700mm -2.7300mm 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
 	ElementLine [-50.00mil -50.00mil 50.00mil -50.00mil 10.00mil]
@@ -2480,7 +2480,7 @@ Element["" "0603" "C83" "1u" 7.2500mm 65.2500mm -31.50mil -31.50mil 0 100 ""]
 
 	)
 
-Element["" "LFCSP_WD8_3_EP" "U19" "ADP7104ACPZ-5.0-R7" 4.7500mm 62.0000mm -0.5000mm -0.8000mm 0 100 ""]
+Element["" "LFCSP_WD8_3_EP" "U19" "ADP7104ACPZ-5.0" 4.7500mm 62.0000mm -0.5000mm -0.8000mm 0 100 ""]
 (
 	Pad[-1.5750mm -0.7500mm -1.2250mm -0.7500mm 0.2500mm 0.4000mm 0.5000mm "VOUT" "1" "square"]
 	Pad[-1.5750mm -0.2500mm -1.2250mm -0.2500mm 0.2500mm 0.4000mm 0.5000mm "SENSE/ADJ" "2" "square"]
@@ -2610,7 +2610,7 @@ Element["" "0603" "C98" "1n" 15.0000mm 44.5000mm -31.50mil -31.50mil 0 100 ""]
 
 	)
 
-Element["" "JUMPER1" "TP6" "TESTPOINT" 27.5000mm 51.2500mm 1.4800mm -0.7300mm 0 100 ""]
+Element["" "JUMPER1" "TP6" "JUMPER1" 27.5000mm 51.2500mm 1.4800mm -0.7300mm 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,thermal(0X,2X)"]
 	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
@@ -2650,7 +2650,7 @@ Element["" "0603" "C78" "1u" 21.5000mm 55.7500mm -31.50mil -31.50mil 0 100 ""]
 
 	)
 
-Element["" "LFCSP_WD8_3_EP" "U15" "ADP7104ACPZ-R7" 24.2500mm 51.2500mm -0.8000mm 0.5000mm 1 100 ""]
+Element["" "LFCSP_WD8_3_EP" "U15" "ADP7104ACPZ" 24.2500mm 51.2500mm -0.8000mm 0.5000mm 1 100 ""]
 (
 	Pad[-0.7500mm 1.2250mm -0.7500mm 1.5750mm 0.2500mm 0.2500mm 0.5000mm "VOUT" "1" "square,edge2"]
 	Pad[-0.2500mm 1.2250mm -0.2500mm 1.5750mm 0.2500mm 0.2500mm 0.5000mm "SENSE/ADJ" "2" "square,edge2"]
@@ -2728,7 +2728,7 @@ Element["" "0603" "C63" "4.7u" 67.7500mm 64.4000mm -31.50mil 31.50mil 1 100 ""]
 
 	)
 
-Element["" "JUMPER1" "TP11" "TESTPOINT" 43.2500mm 58.5000mm -1.2500mm 1.2500mm 0 100 ""]
+Element["" "JUMPER1" "TP11" "JUMPER1" 43.2500mm 58.5000mm -1.2500mm 1.2500mm 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
 	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
@@ -2740,7 +2740,7 @@ Element["" "JUMPER1" "TP11" "TESTPOINT" 43.2500mm 58.5000mm -1.2500mm 1.2500mm 0
 
 	)
 
-Element["" "JUMPER1" "TP8" "TESTPOINT" 65.2500mm 58.5000mm -4.0200mm -1.9800mm 0 100 ""]
+Element["" "JUMPER1" "TP8" "JUMPER1" 65.2500mm 58.5000mm -4.0200mm -1.9800mm 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
 	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
@@ -2862,7 +2862,7 @@ Element["" "HEADER10_2" "J2" "HEADER10" 32.4100mm 69.2100mm -1.0900mm -2.9000mm 
 
 	)
 
-Element["" "JUMPER1" "TP13" "TESTPOINT" 36.2500mm 58.5000mm -1.5200mm -2.7300mm 0 100 ""]
+Element["" "JUMPER1" "TP13" "JUMPER1" 36.2500mm 58.5000mm -1.5200mm -2.7300mm 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
 	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
@@ -2930,7 +2930,7 @@ Element["" "0603" "R36" "100k" 50.2500mm 59.1500mm -31.50mil 31.50mil 1 100 ""]
 
 	)
 
-Element["" "LFCSP_WD8_3_EP" "U22" "ADP7104ACPZ-R7" 53.7500mm 61.0000mm -0.5000mm -0.8000mm 0 100 ""]
+Element["" "LFCSP_WD8_3_EP" "U22" "ADP7104ACPZ" 53.7500mm 61.0000mm -0.5000mm -0.8000mm 0 100 ""]
 (
 	Pad[-1.5750mm -0.7500mm -1.2250mm -0.7500mm 0.2500mm 0.4000mm 0.5000mm "VOUT" "1" "square"]
 	Pad[-1.5750mm -0.2500mm -1.2250mm -0.2500mm 0.2500mm 0.4000mm 0.5000mm "SENSE/ADJ" "2" "square"]
