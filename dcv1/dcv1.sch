@@ -3356,7 +3356,7 @@ device=LED
 T 65800 32000 5 10 0 1 90 0 1
 footprint=0603
 T 65800 32000 5 10 0 0 0 6 1
-value=GREEN
+value=BLHGK36G
 T 66400 31900 5 10 1 1 180 8 1
 refdes=D1
 }
@@ -3745,7 +3745,7 @@ device=LED
 T 65800 31400 5 10 0 1 90 0 1
 footprint=0603
 T 65800 31400 5 10 0 0 0 6 1
-value=GREEN
+value=BLHKB36A
 T 66400 31300 5 10 1 1 180 8 1
 refdes=D2
 }
@@ -4132,7 +4132,7 @@ device=LED
 T 70800 31400 5 10 0 1 90 0 1
 footprint=0603
 T 70800 31400 5 10 0 0 0 6 1
-value=GREEN
+value=BLHKB36A
 T 71400 31300 5 10 1 1 180 8 1
 refdes=D3
 }
@@ -4167,7 +4167,7 @@ device=LED
 T 70800 30600 5 10 0 1 90 0 1
 footprint=0603
 T 70800 30600 5 10 0 0 0 6 1
-value=GREEN
+value=BLHKB36A
 T 71400 30500 5 10 1 1 180 8 1
 refdes=D4
 }
@@ -4238,7 +4238,7 @@ device=LED
 T 70800 29900 5 10 0 1 90 0 1
 footprint=0603
 T 70800 29900 5 10 0 0 0 6 1
-value=GREEN
+value=BLHKB36A
 T 71400 29800 5 10 1 1 180 8 1
 refdes=D5
 }
@@ -4273,7 +4273,7 @@ device=LED
 T 70800 29100 5 10 0 1 90 0 1
 footprint=0603
 T 70800 29100 5 10 0 0 0 6 1
-value=GREEN
+value=BLHKB36A
 T 71400 29000 5 10 1 1 180 8 1
 refdes=D6
 }
