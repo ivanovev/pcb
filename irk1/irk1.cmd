@@ -1,5 +1,53 @@
 # Pin name action command file
 
+# Start of element R24
+ChangePinName(R24, 1, 1)
+ChangePinName(R24, 2, 2)
+
+# Start of element R23
+ChangePinName(R23, 1, 1)
+ChangePinName(R23, 2, 2)
+
+# Start of element R22
+ChangePinName(R22, 1, 1)
+ChangePinName(R22, 2, 2)
+
+# Start of element R21
+ChangePinName(R21, 1, 1)
+ChangePinName(R21, 2, 2)
+
+# Start of element C25
+ChangePinName(C25, 2, 2)
+ChangePinName(C25, 1, 1)
+
+# Start of element C26
+ChangePinName(C26, 2, 2)
+ChangePinName(C26, 1, 1)
+
+# Start of element C28
+ChangePinName(C28, 2, 2)
+ChangePinName(C28, 1, 1)
+
+# Start of element C27
+ChangePinName(C27, 2, 2)
+ChangePinName(C27, 1, 1)
+
+# Start of element R17
+ChangePinName(R17, 1, 1)
+ChangePinName(R17, 2, 2)
+
+# Start of element R18
+ChangePinName(R18, 1, 1)
+ChangePinName(R18, 2, 2)
+
+# Start of element R19
+ChangePinName(R19, 1, 1)
+ChangePinName(R19, 2, 2)
+
+# Start of element R20
+ChangePinName(R20, 1, 1)
+ChangePinName(R20, 2, 2)
+
 # Start of element TP2
 ChangePinName(TP2, 1, 1)
 
@@ -42,54 +90,6 @@ ChangePinName(R2, 2, 2)
 # Start of element R1
 ChangePinName(R1, 1, 1)
 ChangePinName(R1, 2, 2)
-
-# Start of element C28
-ChangePinName(C28, 2, 2)
-ChangePinName(C28, 1, 1)
-
-# Start of element C27
-ChangePinName(C27, 2, 2)
-ChangePinName(C27, 1, 1)
-
-# Start of element C25
-ChangePinName(C25, 2, 2)
-ChangePinName(C25, 1, 1)
-
-# Start of element C26
-ChangePinName(C26, 2, 2)
-ChangePinName(C26, 1, 1)
-
-# Start of element R24
-ChangePinName(R24, 1, 1)
-ChangePinName(R24, 2, 2)
-
-# Start of element R23
-ChangePinName(R23, 1, 1)
-ChangePinName(R23, 2, 2)
-
-# Start of element R22
-ChangePinName(R22, 1, 1)
-ChangePinName(R22, 2, 2)
-
-# Start of element R21
-ChangePinName(R21, 1, 1)
-ChangePinName(R21, 2, 2)
-
-# Start of element R20
-ChangePinName(R20, 1, 1)
-ChangePinName(R20, 2, 2)
-
-# Start of element R19
-ChangePinName(R19, 1, 1)
-ChangePinName(R19, 2, 2)
-
-# Start of element R18
-ChangePinName(R18, 1, 1)
-ChangePinName(R18, 2, 2)
-
-# Start of element R17
-ChangePinName(R17, 1, 1)
-ChangePinName(R17, 2, 2)
 
 # Start of element J18
 ChangePinName(J18, 6, 6)
