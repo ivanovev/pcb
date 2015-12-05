@@ -1813,7 +1813,7 @@ Element["" "0805" "C16" "10u" 27.6000mm 54.2500mm -31.50mil 31.50mil 1 100 ""]
 
 	)
 
-Element["" "QFN24_4_EP" "U3" "LM26480" 23.0000mm 53.5000mm -0.5039mm -0.7706mm 0 100 ""]
+Element["" "QFN24_4_EP" "U3" "LM26480SQ-AA" 23.0000mm 53.5000mm -0.5039mm -0.7706mm 0 100 ""]
 (
 	Pad[-83.07mil -49.21mil -66.53mil -49.21mil 11.02mil 0.0000 14.02mil "VINLDO12" "1" "square"]
 	Pad[-83.07mil -29.52mil -66.53mil -29.52mil 11.02mil 0.0000 14.02mil "SYNC" "2" "square"]

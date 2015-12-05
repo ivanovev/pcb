@@ -782,16 +782,16 @@ device=ADP3330
 T 44200 33400 5 10 0 1 0 0 1
 footprint=SOT26
 T 43800 31200 5 10 0 1 0 0 1
-value=ADP3330ARTZ
+value=ADP3330ARTZ-3.3
 }
 C 43200 31200 1 90 0 capacitor-1.sym
 {
 T 42500 31400 5 10 0 1 90 0 1
 device=CAPACITOR
-T 42900 31900 5 10 1 1 180 0 1
+T 42900 31800 5 10 1 1 0 6 1
 refdes=C21
-T 43700 31500 5 10 1 1 180 0 1
-value=0.47u
+T 42900 31500 5 10 1 1 180 0 1
+value=470n
 T 43200 31200 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -854,7 +854,7 @@ device=CAPACITOR
 T 48000 31900 5 10 1 1 180 0 1
 refdes=C24
 T 48300 31900 5 10 1 1 180 6 1
-value=0.47u
+value=470n
 T 48600 31500 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -1120,7 +1120,7 @@ device=RESISTOR
 T 48000 56800 5 10 1 1 0 6 1
 refdes=R3
 T 48100 56800 5 10 1 1 0 0 1
-value=80
+value=78.7
 T 47600 57000 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -1156,7 +1156,7 @@ device=RESISTOR
 T 48000 49000 5 10 1 1 0 6 1
 refdes=R8
 T 48100 49000 5 10 1 1 0 0 1
-value=80
+value=78.7
 T 47600 49200 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -1455,7 +1455,7 @@ footprint=0603
 T 53700 32200 5 10 1 1 0 6 1
 refdes=C27
 T 53700 31900 5 10 1 1 180 0 1
-value=0.1u
+value=100n
 }
 C 54800 31600 1 90 0 capacitor-1.sym
 {
@@ -1466,7 +1466,7 @@ footprint=0603
 T 54500 32200 5 10 1 1 0 6 1
 refdes=C28
 T 54500 31900 5 10 1 1 180 0 1
-value=0.1u
+value=100n
 }
 C 53200 31600 1 90 0 capacitor-1.sym
 {
@@ -1477,7 +1477,7 @@ footprint=0603
 T 52900 32200 5 10 1 1 0 6 1
 refdes=C26
 T 52900 31900 5 10 1 1 180 0 1
-value=0.1u
+value=100n
 }
 C 52400 31600 1 90 0 capacitor-1.sym
 {
@@ -1488,7 +1488,7 @@ footprint=0603
 T 52100 32200 5 10 1 1 0 6 1
 refdes=C25
 T 52100 31900 5 10 1 1 180 0 1
-value=0.1u
+value=100n
 }
 N 54600 31600 54600 31300 4
 N 54600 31300 52200 31300 4

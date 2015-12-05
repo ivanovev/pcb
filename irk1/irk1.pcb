@@ -1544,21 +1544,21 @@ Element["" "HEADER10_2" "J18" "HEADER10" 23.5500mm 59.0900mm 0.0200mm -2.8700mm 
 
 	)
 
-Element["" "0603" "C27" "0.1u" 14.6750mm 62.9000mm -31.50mil -31.50mil 0 100 ""]
+Element["" "0603" "C27" "100n" 14.6750mm 62.9000mm -31.50mil -31.50mil 0 100 ""]
 (
 	Pad[25.59mil -4.92mil 25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "1" "1" "square"]
 	Pad[-25.59mil -4.92mil -25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "2" "2" "square"]
 
 	)
 
-Element["" "0603" "C25" "0.1u" 14.6750mm 52.7400mm -31.50mil -31.50mil 0 100 ""]
+Element["" "0603" "C25" "100n" 14.6750mm 52.7400mm -31.50mil -31.50mil 0 100 ""]
 (
 	Pad[25.59mil -4.92mil 25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "1" "1" "square"]
 	Pad[-25.59mil -4.92mil -25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "2" "2" "square"]
 
 	)
 
-Element["" "0603" "C26" "0.1u" 14.6750mm 57.8200mm -31.50mil -31.50mil 0 100 ""]
+Element["" "0603" "C26" "100n" 14.6750mm 57.8200mm -31.50mil -31.50mil 0 100 ""]
 (
 	Pad[25.59mil -4.92mil 25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "1" "1" "square"]
 	Pad[-25.59mil -4.92mil -25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "2" "2" "square"]
@@ -1593,7 +1593,7 @@ Element["" "0603" "R21" "360" 25.4400mm 52.7400mm -31.50mil -31.50mil 0 100 ""]
 
 	)
 
-Element["" "0603" "C28" "0.1u" 14.6750mm 67.9800mm -31.50mil -31.50mil 0 100 ""]
+Element["" "0603" "C28" "100n" 14.6750mm 67.9800mm -31.50mil -31.50mil 0 100 ""]
 (
 	Pad[25.59mil -4.92mil 25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "1" "1" "square"]
 	Pad[-25.59mil -4.92mil -25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "2" "2" "square"]
@@ -1640,7 +1640,7 @@ Element["" "0603" "C10" "10n" 102.5000mm 47.5000mm -31.50mil -31.50mil 0 100 ""]
 
 	)
 
-Element["" "0603" "R8" "80" 107.6500mm 49.5000mm -31.50mil -31.50mil 0 100 ""]
+Element["" "0603" "R8" "78.7" 107.6500mm 49.5000mm -31.50mil -31.50mil 0 100 ""]
 (
 	Pad[-25.59mil -4.92mil -25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "1" "1" "square"]
 	Pad[25.59mil -4.92mil 25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "2" "2" "square"]
@@ -1710,7 +1710,7 @@ Element["" "HF3" "U1" "HF353" 120.0000mm 20.0000mm -0.5000mm -0.5000mm 0 100 ""]
 
 	)
 
-Element["" "0603" "R3" "80" 132.3500mm 25.5000mm -31.50mil -31.50mil 0 100 ""]
+Element["" "0603" "R3" "78.7" 132.3500mm 25.5000mm -31.50mil -31.50mil 0 100 ""]
 (
 	Pad[25.59mil -4.92mil 25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "1" "1" "square"]
 	Pad[-25.59mil -4.92mil -25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "2" "2" "square"]
@@ -1995,7 +1995,7 @@ Element["" "0603" "R15" "330k" 1259.10mil 24.4575mm -31.50mil 31.50mil 1 100 ""]
 
 	)
 
-Element["" "0603" "C24" "0.47u" 37.9000mm 15.5000mm -31.50mil -31.50mil 0 100 ""]
+Element["" "0603" "C24" "470n" 37.9000mm 15.5000mm -31.50mil -31.50mil 0 100 ""]
 (
 	Pad[25.59mil -4.92mil 25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "1" "1" "square"]
 	Pad[-25.59mil -4.92mil -25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "2" "2" "square"]
@@ -2091,7 +2091,7 @@ Element["" "0603" "R14" "3.3k" 51.1500mm 24.5000mm -31.50mil -31.50mil 0 100 ""]
 
 	)
 
-Element["" "BNX016" "U8" "BNX016" 32.5000mm 6.5000mm -0.1900mm -4.8479mm 0 100 ""]
+Element["" "BNX016" "U8" "BNX016-01" 32.5000mm 6.5000mm -0.1900mm -4.8479mm 0 100 ""]
 (
 	Attribute("description" "BNX00 EMI filter")
 	Attribute("author" "Stefan Salewski")
@@ -2114,7 +2114,7 @@ Element["" "BNX016" "U8" "BNX016" 32.5000mm 6.5000mm -0.1900mm -4.8479mm 0 100 "
 
 	)
 
-Element["" "SOT26" "U9" "ADP3330ARTZ" 1181.10mil 809.35mil -1.9865mm -2.7994mm 0 100 ""]
+Element["" "SOT26" "U9" "ADP3330ARTZ-3.3" 1181.10mil 809.35mil -1.9865mm -2.7994mm 0 100 ""]
 (
 	Pad[0.0000 -8.00mil 0.0000 8.00mil 24.00mil 30.00mil 30.00mil "OUT" "1" "square,edge2"]
 	Pad[39.00mil -8.00mil 39.00mil 8.00mil 24.00mil 30.00mil 30.00mil "IN" "2" "square,edge2"]
@@ -2129,7 +2129,7 @@ Element["" "SOT26" "U9" "ADP3330ARTZ" 1181.10mil 809.35mil -1.9865mm -2.7994mm 0
 
 	)
 
-Element["" "0603" "C21" "0.47u" 29.3500mm 15.5000mm -31.50mil -31.50mil 0 100 ""]
+Element["" "0603" "C21" "470n" 29.3500mm 15.5000mm -31.50mil -31.50mil 0 100 ""]
 (
 	Pad[-25.59mil -4.92mil -25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "1" "1" "square"]
 	Pad[25.59mil -4.92mil 25.59mil 4.92mil 29.52mil 20.00mil 35.52mil "2" "2" "square"]
