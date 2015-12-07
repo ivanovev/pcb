@@ -1,4 +1,4 @@
-elements-dir /home/iev/geda/footprints
-elements-dir /home/iev/geda/cvs/www/user/evgeny_ivanov/footprints
+elements-dir /home/iev/geda/gedasymbols/footprints
 schematics stm32v2.sch
 output-name stm32v2
+gnetlist partslist3

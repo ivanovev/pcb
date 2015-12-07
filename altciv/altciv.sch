@@ -199,11 +199,13 @@ N 61300 30000 61600 30000 4
 C 61900 26900 1 0 0 header10-2.sym
 {
 T 61900 28900 5 10 0 1 0 0 1
-device=HEADER10
+value=HEADER10
 T 62500 29000 5 10 1 1 0 0 1
 refdes=J5
 T 61900 26900 5 10 0 0 0 0 1
 footprint=HEADER10_2
+T 61900 26900 5 10 0 0 0 0 1
+device=CONNECTOR
 }
 C 61600 27000 1 0 1 io-1.sym
 {
@@ -264,7 +266,7 @@ N 63600 27100 63300 27100 4
 C 30800 53100 1 0 1 jumper2.sym
 {
 T 29800 52900 5 8 0 0 0 6 1
-device=PWL2
+device=CONNECTOR
 T 30400 54000 5 10 1 1 0 6 1
 refdes=J1
 T 30500 52900 5 8 1 1 0 6 1
@@ -277,13 +279,13 @@ N 30800 53700 32200 53700 4
 C 32100 52500 1 0 0 BNX016.sym
 {
 T 32500 54400 5 10 0 0 0 0 1
-device=BNX016
+device=FILTER
 T 32500 54600 5 10 0 0 0 0 1
 footprint=BNX016
 T 33900 54200 5 10 1 1 0 6 1
 refdes=U1
 T 32100 52500 5 10 0 0 0 0 1
-value=BNX016
+value=BNX016-01
 }
 N 34200 52600 34200 53300 4
 N 33000 52600 34200 52600 4
@@ -291,21 +293,25 @@ N 34200 53700 37200 53700 4
 C 61900 42200 1 0 0 header10-2.sym
 {
 T 61900 44200 5 10 0 1 0 0 1
-device=HEADER10
+value=HEADER10
 T 62500 44300 5 10 1 1 0 0 1
 refdes=J3
 T 61900 42200 5 10 0 0 0 0 1
 footprint=HEADER10_2
+T 61900 42200 5 10 0 0 0 0 1
+device=CONNECTOR
 }
 C 34100 52300 1 0 0 gnd-1.sym
 C 61900 47400 1 0 0 header40-2.sym
 {
 T 62150 55900 5 10 0 1 0 0 1
-device=HEADER40
+value=HEADER40
 T 62500 55500 5 10 1 1 0 0 1
 refdes=J2
 T 61900 47400 5 10 0 0 0 0 1
 footprint=HEADER40_2
+T 61900 47400 5 10 0 0 0 0 1
+device=CONNECTOR
 }
 C 63600 53300 1 90 1 gnd-1.sym
 C 63900 49700 1 90 1 gnd-1.sym
@@ -378,7 +384,7 @@ footprint=0603
 T 36500 40600 5 10 1 1 180 0 1
 refdes=C15
 T 36500 40200 5 10 1 1 180 0 1
-value=0.1u
+value=100n
 }
 C 34100 40800 1 0 1 vcc.sym
 {
@@ -400,7 +406,7 @@ footprint=IT1158
 T 35600 40150 5 10 1 1 0 0 1
 refdes=S1
 T 35800 40800 5 10 0 0 0 0 1
-value=BUTTON
+value=IT-1158-160G-G
 }
 C 35500 40900 1 180 0 resistor-2.sym
 {
@@ -425,7 +431,7 @@ footprint=IT1158
 T 35600 38150 5 10 1 1 0 0 1
 refdes=S2
 T 35800 38800 5 10 0 0 0 0 1
-value=BUTTON
+value=IT-1158-160G-G
 }
 C 36500 39600 1 0 0 gnd-1.sym
 C 35700 39300 1 0 0 gnd-1.sym
@@ -474,7 +480,7 @@ footprint=0603
 T 36500 38600 5 10 1 1 180 0 1
 refdes=C17
 T 36500 38200 5 10 1 1 180 0 1
-value=0.1u
+value=100n
 }
 C 36500 37600 1 0 0 gnd-1.sym
 C 38100 38900 1 180 0 resistor-2.sym
@@ -914,7 +920,7 @@ footprint=0402
 T 33300 33300 5 10 1 1 180 6 1
 refdes=C18
 T 33300 32900 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 34400 32600 1 90 0 capacitor-1.sym
 {
@@ -927,7 +933,7 @@ footprint=0402
 T 33800 33300 5 10 1 1 180 6 1
 refdes=C19
 T 33800 32900 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 34900 32600 1 90 0 capacitor-1.sym
 {
@@ -940,7 +946,7 @@ footprint=0402
 T 34300 33300 5 10 1 1 180 6 1
 refdes=C20
 T 34300 32900 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 35400 32600 1 90 0 capacitor-1.sym
 {
@@ -953,7 +959,7 @@ footprint=0402
 T 34800 33300 5 10 1 1 180 6 1
 refdes=C22
 T 34800 32900 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 35900 32600 1 90 0 capacitor-1.sym
 {
@@ -966,7 +972,7 @@ footprint=0402
 T 35300 33300 5 10 1 1 180 6 1
 refdes=C24
 T 35300 32900 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 36400 32600 1 90 0 capacitor-1.sym
 {
@@ -979,7 +985,7 @@ footprint=0402
 T 35800 33300 5 10 1 1 180 6 1
 refdes=C26
 T 35800 32900 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 36900 32600 1 90 0 capacitor-1.sym
 {
@@ -992,7 +998,7 @@ footprint=0402
 T 36300 33300 5 10 1 1 180 6 1
 refdes=C28
 T 36300 32900 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 37400 32600 1 90 0 capacitor-1.sym
 {
@@ -1005,7 +1011,7 @@ footprint=0402
 T 36800 33300 5 10 1 1 180 6 1
 refdes=C30
 T 36800 32900 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 37900 32600 1 90 0 capacitor-1.sym
 {
@@ -1018,7 +1024,7 @@ footprint=0402
 T 37300 33300 5 10 1 1 180 6 1
 refdes=C32
 T 37300 32900 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 38400 32600 1 90 0 capacitor-1.sym
 {
@@ -1031,7 +1037,7 @@ footprint=0402
 T 37800 33300 5 10 1 1 180 6 1
 refdes=C34
 T 37800 32900 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 38900 32600 1 90 0 capacitor-1.sym
 {
@@ -1044,7 +1050,7 @@ footprint=0402
 T 38300 33300 5 10 1 1 180 6 1
 refdes=C36
 T 38300 32900 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 39400 32600 1 90 0 capacitor-1.sym
 {
@@ -1057,7 +1063,7 @@ footprint=0402
 T 38800 33300 5 10 1 1 180 6 1
 refdes=C39
 T 38800 32900 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 N 33700 32600 39200 32600 4
 N 33700 33500 39200 33500 4
@@ -1072,7 +1078,7 @@ footprint=0402
 T 33300 31600 5 10 1 1 180 6 1
 refdes=C23
 T 33300 31200 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 34400 30900 1 90 0 capacitor-1.sym
 {
@@ -1085,7 +1091,7 @@ footprint=0402
 T 33800 31600 5 10 1 1 180 6 1
 refdes=C25
 T 33800 31200 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 34900 30900 1 90 0 capacitor-1.sym
 {
@@ -1098,7 +1104,7 @@ footprint=0402
 T 34300 31600 5 10 1 1 180 6 1
 refdes=C27
 T 34300 31200 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 35400 30900 1 90 0 capacitor-1.sym
 {
@@ -1111,7 +1117,7 @@ footprint=0402
 T 34800 31600 5 10 1 1 180 6 1
 refdes=C29
 T 34800 31200 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 35900 30900 1 90 0 capacitor-1.sym
 {
@@ -1124,7 +1130,7 @@ footprint=0402
 T 35300 31600 5 10 1 1 180 6 1
 refdes=C31
 T 35300 31200 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 36400 30900 1 90 0 capacitor-1.sym
 {
@@ -1137,7 +1143,7 @@ footprint=0402
 T 35800 31600 5 10 1 1 180 6 1
 refdes=C33
 T 35800 31200 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 36900 30900 1 90 0 capacitor-1.sym
 {
@@ -1150,7 +1156,7 @@ footprint=0402
 T 36300 31600 5 10 1 1 180 6 1
 refdes=C35
 T 36300 31200 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 37400 30900 1 90 0 capacitor-1.sym
 {
@@ -1163,7 +1169,7 @@ footprint=0402
 T 36800 31600 5 10 1 1 180 6 1
 refdes=C37
 T 36800 31200 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 37900 30900 1 90 0 capacitor-1.sym
 {
@@ -1176,7 +1182,7 @@ footprint=0402
 T 37300 31600 5 10 1 1 180 6 1
 refdes=C40
 T 37300 31200 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 38400 30900 1 90 0 capacitor-1.sym
 {
@@ -1189,7 +1195,7 @@ footprint=0402
 T 37800 31600 5 10 1 1 180 6 1
 refdes=C42
 T 37800 31200 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 38900 30900 1 90 0 capacitor-1.sym
 {
@@ -1202,7 +1208,7 @@ footprint=0402
 T 38300 31600 5 10 1 1 180 6 1
 refdes=C44
 T 38300 31200 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 39400 30900 1 90 0 capacitor-1.sym
 {
@@ -1215,7 +1221,7 @@ footprint=0402
 T 38800 31600 5 10 1 1 180 6 1
 refdes=C46
 T 38800 31200 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 N 33700 30900 42200 30900 4
 N 33700 31800 42200 31800 4
@@ -1230,7 +1236,7 @@ footprint=0402
 T 39300 31600 5 10 1 1 180 6 1
 refdes=C47
 T 39300 31200 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 40400 30900 1 90 0 capacitor-1.sym
 {
@@ -1243,7 +1249,7 @@ footprint=0402
 T 39800 31600 5 10 1 1 180 6 1
 refdes=C48
 T 39800 31200 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 40900 30900 1 90 0 capacitor-1.sym
 {
@@ -1256,7 +1262,7 @@ footprint=0402
 T 40300 31600 5 10 1 1 180 6 1
 refdes=C49
 T 40300 31200 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 41400 30900 1 90 0 capacitor-1.sym
 {
@@ -1269,7 +1275,7 @@ footprint=0402
 T 40800 31600 5 10 1 1 180 6 1
 refdes=C50
 T 40800 31200 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 41900 30900 1 90 0 capacitor-1.sym
 {
@@ -1282,7 +1288,7 @@ footprint=0402
 T 41300 31600 5 10 1 1 180 6 1
 refdes=C51
 T 41300 31200 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 42400 30900 1 90 0 capacitor-1.sym
 {
@@ -1295,7 +1301,7 @@ footprint=0402
 T 41800 31600 5 10 1 1 180 6 1
 refdes=C52
 T 41800 31200 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 36600 33500 1 0 0 vcc.sym
 {
@@ -1343,7 +1349,7 @@ footprint=0402
 T 35300 29900 5 10 1 1 180 6 1
 refdes=C38
 T 35300 29500 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 36400 29200 1 90 0 capacitor-1.sym
 {
@@ -1356,7 +1362,7 @@ footprint=0402
 T 35800 29900 5 10 1 1 180 6 1
 refdes=C41
 T 35800 29500 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 36900 29200 1 90 0 capacitor-1.sym
 {
@@ -1369,7 +1375,7 @@ footprint=0402
 T 36300 29900 5 10 1 1 180 6 1
 refdes=C43
 T 36300 29500 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 37400 29200 1 90 0 capacitor-1.sym
 {
@@ -1382,7 +1388,7 @@ footprint=0402
 T 36800 29900 5 10 1 1 180 6 1
 refdes=C45
 T 36800 29500 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 36600 28900 1 0 0 gnd-1.sym
 N 37200 29200 35700 29200 4
@@ -1466,11 +1472,13 @@ N 63600 42400 63300 42400 4
 C 61900 37200 1 0 0 header20-2.sym
 {
 T 62150 36950 5 10 0 1 0 0 1
-device=HEADER20
+value=HEADER20
 T 62500 41300 5 10 1 1 0 0 1
 refdes=J4
 T 61900 37200 5 10 0 1 0 0 1
 footprint=HEADER20_2
+T 61900 37200 5 10 0 0 0 0 1
+device=CONNECTOR
 }
 C 61600 41100 1 180 0 resistor-2.sym
 {
@@ -1589,7 +1597,7 @@ footprint=0603
 T 63400 46000 5 10 1 1 180 6 1
 refdes=R25
 T 64100 46000 5 10 1 1 180 0 1
-value=3k3
+value=3.3k
 }
 C 63000 45600 1 0 1 led-2.sym
 {
@@ -1600,7 +1608,7 @@ footprint=0603
 T 62600 45400 5 10 1 1 180 2 1
 refdes=D2
 T 63000 45600 5 10 0 0 0 0 1
-value=LED
+value=BLHKB36A
 }
 C 64200 46600 1 180 0 resistor-2.sym
 {
@@ -1611,7 +1619,7 @@ footprint=0603
 T 63400 46800 5 10 1 1 180 6 1
 refdes=R24
 T 64100 46800 5 10 1 1 180 0 1
-value=3k3
+value=3.3k
 }
 C 63000 46400 1 0 1 led-2.sym
 {
@@ -1622,7 +1630,7 @@ footprint=0603
 T 62600 46200 5 10 1 1 180 2 1
 refdes=D1
 T 63000 46400 5 10 0 0 0 0 1
-value=LED
+value=BLHKB36A
 }
 C 64400 45700 1 0 0 vcc.sym
 {
@@ -1685,7 +1693,7 @@ footprint=0603
 T 36800 52700 5 10 1 1 180 0 1
 refdes=C3
 T 36800 52300 5 10 1 1 180 0 1
-value=0.1u
+value=100n
 }
 N 37200 52900 36900 52900 4
 C 36800 51700 1 0 0 gnd-1.sym
@@ -1805,7 +1813,7 @@ footprint=0603
 T 31200 47300 5 10 1 1 180 0 1
 refdes=C4
 T 31200 46900 5 10 1 1 180 0 1
-value=0.47u
+value=470n
 }
 C 35700 43400 1 0 0 gnd-1.sym
 N 35000 44000 35000 43700 4
@@ -2049,10 +2057,12 @@ T 38300 48600 5 10 1 1 0 0 1
 refdes=L1
 T 38400 49400 5 10 0 0 0 0 1
 symversion=0.1
-T 38600 48600 5 10 1 1 0 0 1
-value=2.2uH
+T 38600 48600 5 10 0 1 0 0 1
+value=CDRH2D18-2R2NC
 T 38200 48700 5 10 0 1 0 0 1
 footprint=CDRH2D
+T 38700 48600 5 10 1 1 0 0 1
+comment=2.2u
 }
 C 37900 47400 1 90 0 gnd-1.sym
 N 37600 47500 37300 47500 4
@@ -2118,8 +2128,10 @@ T 38200 46200 5 10 0 1 0 0 1
 footprint=CDRH2D
 T 38300 46100 5 10 1 1 0 0 1
 refdes=L2
-T 38600 46100 5 10 1 1 0 0 1
-value=2.2uH
+T 38600 46100 5 10 0 1 0 0 1
+value=CDRH2D18-2R2NC
+T 38700 46100 5 10 1 1 0 0 1
+comment=2.2u
 }
 C 37900 45400 1 90 0 gnd-1.sym
 N 37600 45500 37300 45500 4
@@ -2196,7 +2208,7 @@ T 33100 45100 5 10 0 0 0 0 1
 value=TESTPOINT
 }
 N 34200 53300 34500 53300 4
-C 36900 53400 1 270 0 gnd-1.sym
+C 36600 53400 1 270 0 gnd-1.sym
 C 35600 52500 1 0 0 gnd-1.sym
 C 42100 47900 1 90 0 capacitor-1.sym
 {
@@ -2231,11 +2243,11 @@ C 34500 35300 1 0 0 KXO-97.sym
 T 35900 36700 5 10 1 1 0 6 1
 refdes=U5
 T 34900 36900 5 10 0 0 0 0 1
-device=KXO-97
+device=XTAL
 T 34900 37100 5 10 0 0 0 0 1
 footprint=KXO-97
 T 34500 35300 5 10 0 0 0 0 1
-value=KXO-97
+value=50M
 }
 C 37600 36100 1 0 0 output-1.sym
 {
@@ -2360,6 +2372,8 @@ T 44200 42600 5 10 0 0 0 0 1
 footprint=IPX
 T 44200 42600 5 10 0 0 0 0 1
 value=IPX
+T 44200 42600 5 10 0 0 0 0 1
+device=CONNECTOR
 }
 N 46700 42800 44650 42800 4
 C 44200 42300 1 0 0 gnd-1.sym
@@ -2371,6 +2385,8 @@ T 45300 39800 5 10 0 0 0 0 1
 footprint=IPX
 T 45300 39800 5 10 0 0 0 0 1
 value=IPX
+T 45300 39800 5 10 0 0 0 0 1
+device=CONNECTOR
 }
 C 45300 39300 1 0 0 gnd-1.sym
 C 64700 32500 1 180 0 input-1.sym
@@ -3265,11 +3281,11 @@ C 46600 26400 1 0 0 EP4CE22E22.sym
 T 55000 56100 5 10 1 1 0 6 1
 refdes=U4
 T 47000 56300 5 10 0 0 0 0 1
-device=EP4CE22E22
+device=FPGA
 T 47000 56500 5 10 0 0 0 0 1
 footprint=EQFP144_20
 T 46600 26400 5 10 0 0 0 0 1
-value=EP4CE22E22
+value=EP4CE22E22I7N
 }
 C 63600 43500 1 0 0 io-1.sym
 {
@@ -3320,7 +3336,7 @@ footprint=0603
 T 34100 36000 5 10 1 1 180 0 1
 refdes=C21
 T 34100 35600 5 10 1 1 180 0 1
-value=0.01u
+value=10n
 }
 N 45400 39600 45400 39800 4
 N 46700 40000 45750 40000 4
@@ -3369,7 +3385,7 @@ footprint=0603
 T 63400 45200 5 10 1 1 180 6 1
 refdes=R19
 T 64100 45200 5 10 1 1 180 0 1
-value=3k3
+value=3.3k
 }
 C 63000 44800 1 0 1 led-2.sym
 {
@@ -3378,7 +3394,7 @@ device=LED
 T 63000 44800 5 10 0 1 90 2 1
 footprint=0603
 T 63000 44800 5 10 0 0 0 0 1
-value=LED
+value=BLHGK36G
 T 62600 44600 5 10 1 1 180 2 1
 refdes=D3
 }
@@ -3402,7 +3418,7 @@ C 61500 29500 1 0 0 EPCS64.sym
 T 63300 33300 5 10 1 1 0 6 1
 refdes=U7
 T 61900 33500 5 10 0 0 0 0 1
-device=EPCS64N
+device=FLASH
 T 61900 33700 5 10 0 0 0 0 1
 footprint=SO16W
 T 61500 29500 5 10 0 0 0 0 1
@@ -3413,9 +3429,10 @@ C 61500 33900 1 0 0 EPCS16.sym
 T 63300 36100 5 10 1 1 0 6 1
 refdes=U6
 T 61900 36300 5 10 0 0 0 0 1
-device=EPCS16SI8N
+device=FLASH
 T 61900 36500 5 10 0 0 0 0 1
 footprint=SO8
 T 61500 33900 5 10 0 0 0 0 1
 value=EPCS16SI8N
 }
+N 36900 53300 37200 53300 4

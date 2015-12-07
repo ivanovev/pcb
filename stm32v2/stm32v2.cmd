@@ -1,24 +1,30 @@
 # Pin name action command file
 
+# Start of element U9
+ChangePinName(U9, 2, GND)
+ChangePinName(U9, 3, OUT)
+ChangePinName(U9, 1, NC)
+ChangePinName(U9, 4, VDC)
+
 # Start of element R10
 ChangePinName(R10, 1, 1)
 ChangePinName(R10, 2, 2)
 
-# Start of element BOOT0
-ChangePinName(BOOT0, 1, 1)
-ChangePinName(BOOT0, 2, 2)
+# Start of element J9
+ChangePinName(J9, 1, 1)
+ChangePinName(J9, 2, 2)
 
 # Start of element R8
 ChangePinName(R8, 1, 1)
 ChangePinName(R8, 2, 2)
 
-# Start of element BOOT1
-ChangePinName(BOOT1, 1, 1)
-ChangePinName(BOOT1, 2, 2)
+# Start of element J3
+ChangePinName(J3, 1, 1)
+ChangePinName(J3, 2, 2)
 
-# Start of element BAT
-ChangePinName(BAT, 1, 1)
-ChangePinName(BAT, 2, 2)
+# Start of element J12
+ChangePinName(J12, 1, 1)
+ChangePinName(J12, 2, 2)
 
 # Start of element D1
 ChangePinName(D1, 2, anode)
@@ -37,18 +43,18 @@ ChangePinName(C29, 1, 1)
 ChangePinName(U8, 2, 2)
 ChangePinName(U8, 1, 1)
 
-# Start of element U6
-ChangePinName(U6, 11, 11)
-ChangePinName(U6, 12, 12)
-ChangePinName(U6, 10, 10)
-ChangePinName(U6, 9, 9)
-ChangePinName(U6, 8, GND)
-ChangePinName(U6, 6, R-)
-ChangePinName(U6, 3, R+)
-ChangePinName(U6, 5, 5)
-ChangePinName(U6, 2, T-)
-ChangePinName(U6, 1, T+)
-ChangePinName(U6, 4, 4)
+# Start of element J1
+ChangePinName(J1, 11, 11)
+ChangePinName(J1, 12, 12)
+ChangePinName(J1, 10, 10)
+ChangePinName(J1, 9, 9)
+ChangePinName(J1, 8, GND)
+ChangePinName(J1, 6, R-)
+ChangePinName(J1, 3, R+)
+ChangePinName(J1, 5, 5)
+ChangePinName(J1, 2, T-)
+ChangePinName(J1, 1, T+)
+ChangePinName(J1, 4, 4)
 
 # Start of element U1
 ChangePinName(U1, 20, VSSA)
@@ -169,22 +175,22 @@ ChangePinName(TP2, 1, 1)
 # Start of element TP1
 ChangePinName(TP1, 1, 1)
 
-# Start of element CAN1
-ChangePinName(CAN1, 1, 1)
-ChangePinName(CAN1, 3, 3)
-ChangePinName(CAN1, 2, 2)
+# Start of element J7
+ChangePinName(J7, 1, 1)
+ChangePinName(J7, 3, 3)
+ChangePinName(J7, 2, 2)
 
-# Start of element SWD1
-ChangePinName(SWD1, 1, 1)
-ChangePinName(SWD1, 4, 4)
-ChangePinName(SWD1, 3, 3)
-ChangePinName(SWD1, 2, 2)
+# Start of element J5
+ChangePinName(J5, 1, 1)
+ChangePinName(J5, 4, 4)
+ChangePinName(J5, 3, 3)
+ChangePinName(J5, 2, 2)
 
-# Start of element USB
-ChangePinName(USB, 1, 1)
-ChangePinName(USB, 4, 4)
-ChangePinName(USB, 3, 3)
-ChangePinName(USB, 2, 2)
+# Start of element J6
+ChangePinName(J6, 1, 1)
+ChangePinName(J6, 4, 4)
+ChangePinName(J6, 3, 3)
+ChangePinName(J6, 2, 2)
 
 # Start of element U7
 ChangePinName(U7, 4, D3)
@@ -194,23 +200,23 @@ ChangePinName(U7, 3, D2)
 ChangePinName(U7, 2, Grd)
 ChangePinName(U7, 1, D1)
 
-# Start of element VFD_BTN
-ChangePinName(VFD_BTN, 11, 11)
-ChangePinName(VFD_BTN, 12, 12)
-ChangePinName(VFD_BTN, 13, 13)
-ChangePinName(VFD_BTN, 14, 14)
-ChangePinName(VFD_BTN, 15, 15)
-ChangePinName(VFD_BTN, 16, 16)
-ChangePinName(VFD_BTN, 6, 6)
-ChangePinName(VFD_BTN, 7, 7)
-ChangePinName(VFD_BTN, 8, 8)
-ChangePinName(VFD_BTN, 9, 9)
-ChangePinName(VFD_BTN, 10, 10)
-ChangePinName(VFD_BTN, 5, 5)
-ChangePinName(VFD_BTN, 1, 1)
-ChangePinName(VFD_BTN, 4, 4)
-ChangePinName(VFD_BTN, 3, 3)
-ChangePinName(VFD_BTN, 2, 2)
+# Start of element J8
+ChangePinName(J8, 11, 11)
+ChangePinName(J8, 12, 12)
+ChangePinName(J8, 13, 13)
+ChangePinName(J8, 14, 14)
+ChangePinName(J8, 15, 15)
+ChangePinName(J8, 16, 16)
+ChangePinName(J8, 6, 6)
+ChangePinName(J8, 7, 7)
+ChangePinName(J8, 8, 8)
+ChangePinName(J8, 9, 9)
+ChangePinName(J8, 10, 10)
+ChangePinName(J8, 5, 5)
+ChangePinName(J8, 1, 1)
+ChangePinName(J8, 4, 4)
+ChangePinName(J8, 3, 3)
+ChangePinName(J8, 2, 2)
 
 # Start of element R9
 ChangePinName(R9, 1, 1)
@@ -375,59 +381,59 @@ ChangePinName(C28, 1, 1)
 ChangePinName(C27, 2, 2)
 ChangePinName(C27, 1, 1)
 
-# Start of element FB4
-ChangePinName(FB4, 2, 2)
-ChangePinName(FB4, 1, 1)
-
 # Start of element FB3
 ChangePinName(FB3, 2, 2)
 ChangePinName(FB3, 1, 1)
+
+# Start of element FB2
+ChangePinName(FB2, 2, 2)
+ChangePinName(FB2, 1, 1)
 
 # Start of element C26
 ChangePinName(C26, 2, 2)
 ChangePinName(C26, 1, 1)
 
-# Start of element J5
-ChangePinName(J5, 31, 31)
-ChangePinName(J5, 32, 32)
-ChangePinName(J5, 33, 33)
-ChangePinName(J5, 34, 34)
-ChangePinName(J5, 35, 35)
-ChangePinName(J5, 36, 36)
-ChangePinName(J5, 39, 39)
-ChangePinName(J5, 37, 37)
-ChangePinName(J5, 40, 40)
-ChangePinName(J5, 38, 38)
-ChangePinName(J5, 26, 26)
-ChangePinName(J5, 27, 27)
-ChangePinName(J5, 28, 28)
-ChangePinName(J5, 29, 29)
-ChangePinName(J5, 30, 30)
-ChangePinName(J5, 25, 25)
-ChangePinName(J5, 21, 21)
-ChangePinName(J5, 24, 24)
-ChangePinName(J5, 23, 23)
-ChangePinName(J5, 22, 22)
-ChangePinName(J5, 11, 11)
-ChangePinName(J5, 12, 12)
-ChangePinName(J5, 13, 13)
-ChangePinName(J5, 14, 14)
-ChangePinName(J5, 15, 15)
-ChangePinName(J5, 16, 16)
-ChangePinName(J5, 19, 19)
-ChangePinName(J5, 17, 17)
-ChangePinName(J5, 20, 20)
-ChangePinName(J5, 18, 18)
-ChangePinName(J5, 6, 6)
-ChangePinName(J5, 7, 7)
-ChangePinName(J5, 8, 8)
-ChangePinName(J5, 9, 9)
-ChangePinName(J5, 10, 10)
-ChangePinName(J5, 5, 5)
-ChangePinName(J5, 1, 1)
-ChangePinName(J5, 4, 4)
-ChangePinName(J5, 3, 3)
-ChangePinName(J5, 2, 2)
+# Start of element J11
+ChangePinName(J11, 31, 31)
+ChangePinName(J11, 32, 32)
+ChangePinName(J11, 33, 33)
+ChangePinName(J11, 34, 34)
+ChangePinName(J11, 35, 35)
+ChangePinName(J11, 36, 36)
+ChangePinName(J11, 39, 39)
+ChangePinName(J11, 37, 37)
+ChangePinName(J11, 40, 40)
+ChangePinName(J11, 38, 38)
+ChangePinName(J11, 26, 26)
+ChangePinName(J11, 27, 27)
+ChangePinName(J11, 28, 28)
+ChangePinName(J11, 29, 29)
+ChangePinName(J11, 30, 30)
+ChangePinName(J11, 25, 25)
+ChangePinName(J11, 21, 21)
+ChangePinName(J11, 24, 24)
+ChangePinName(J11, 23, 23)
+ChangePinName(J11, 22, 22)
+ChangePinName(J11, 11, 11)
+ChangePinName(J11, 12, 12)
+ChangePinName(J11, 13, 13)
+ChangePinName(J11, 14, 14)
+ChangePinName(J11, 15, 15)
+ChangePinName(J11, 16, 16)
+ChangePinName(J11, 19, 19)
+ChangePinName(J11, 17, 17)
+ChangePinName(J11, 20, 20)
+ChangePinName(J11, 18, 18)
+ChangePinName(J11, 6, 6)
+ChangePinName(J11, 7, 7)
+ChangePinName(J11, 8, 8)
+ChangePinName(J11, 9, 9)
+ChangePinName(J11, 10, 10)
+ChangePinName(J11, 5, 5)
+ChangePinName(J11, 1, 1)
+ChangePinName(J11, 4, 4)
+ChangePinName(J11, 3, 3)
+ChangePinName(J11, 2, 2)
 
 # Start of element R13
 ChangePinName(R13, 1, 1)
@@ -445,17 +451,17 @@ ChangePinName(R11, 2, 2)
 ChangePinName(C22, 2, 2)
 ChangePinName(C22, 1, 1)
 
-# Start of element UEXT
-ChangePinName(UEXT, 6, 6)
-ChangePinName(UEXT, 7, 7)
-ChangePinName(UEXT, 8, 8)
-ChangePinName(UEXT, 9, 9)
-ChangePinName(UEXT, 10, 10)
-ChangePinName(UEXT, 5, 5)
-ChangePinName(UEXT, 1, 1)
-ChangePinName(UEXT, 4, 4)
-ChangePinName(UEXT, 3, 3)
-ChangePinName(UEXT, 2, 2)
+# Start of element J10
+ChangePinName(J10, 6, 6)
+ChangePinName(J10, 7, 7)
+ChangePinName(J10, 8, 8)
+ChangePinName(J10, 9, 9)
+ChangePinName(J10, 10, 10)
+ChangePinName(J10, 5, 5)
+ChangePinName(J10, 1, 1)
+ChangePinName(J10, 4, 4)
+ChangePinName(J10, 3, 3)
+ChangePinName(J10, 2, 2)
 
 # Start of element C25
 ChangePinName(C25, 2, 2)
@@ -469,16 +475,10 @@ ChangePinName(C24, 1, 1)
 ChangePinName(C15, 2, 2)
 ChangePinName(C15, 1, 1)
 
-# Start of element XTAL_ETH
-ChangePinName(XTAL_ETH, 4, 4)
-ChangePinName(XTAL_ETH, 2, 2)
-ChangePinName(XTAL_ETH, 3, 3)
-ChangePinName(XTAL_ETH, 1, 1)
-
-# Start of element PWR
-ChangePinName(PWR, 1, 1)
-ChangePinName(PWR, 3, 3)
-ChangePinName(PWR, 2, 2)
+# Start of element J4
+ChangePinName(J4, 1, 1)
+ChangePinName(J4, 3, 3)
+ChangePinName(J4, 2, 2)
 
 # Start of element U5
 ChangePinName(U5, 2, 2)
@@ -522,9 +522,9 @@ ChangePinName(U3, 2, CB)
 ChangePinName(U3, 3, PSG)
 ChangePinName(U3, 1, B)
 
-# Start of element PWL2
-ChangePinName(PWL2, 1, 1)
-ChangePinName(PWL2, 2, 2)
+# Start of element J2
+ChangePinName(J2, 1, 1)
+ChangePinName(J2, 2, 2)
 
 # Start of element C4
 ChangePinName(C4, 2, 2)
