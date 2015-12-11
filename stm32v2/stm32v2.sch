@@ -92,7 +92,7 @@ device=RESISTOR
 T 39700 46500 5 10 1 1 0 0 1
 refdes=R5
 T 39700 46200 5 10 1 1 0 0 1
-value=3k3
+value=3.3k
 T 39700 46000 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -246,7 +246,7 @@ refdes=J4
 T 35300 46300 5 8 0 0 0 0 1
 footprint=JUMPER3
 T 34300 46300 5 10 0 1 0 0 1
-value=JUMPER3
+value=PLS
 T 34400 46100 5 10 1 1 0 0 1
 comment=PWR_SEL
 }
@@ -2540,7 +2540,7 @@ footprint=0603
 T 58200 56700 5 10 1 1 180 0 1
 refdes=R9
 T 58600 56700 5 10 1 1 180 0 1
-value=3k3
+value=3.3k
 }
 N 57800 56800 57600 56800 4
 C 59100 56900 1 90 1 agnd.sym
@@ -2660,7 +2660,7 @@ footprint=JUMPER4
 T 63400 60400 5 10 1 1 0 0 1
 refdes=J5
 T 63100 58700 5 10 0 0 0 0 1
-value=JUMPER4
+value=PLS
 T 63400 58500 5 10 1 1 0 0 1
 comment=SWD
 }
@@ -2705,7 +2705,7 @@ footprint=JUMPER3
 T 66800 60200 5 10 1 1 0 0 1
 refdes=J7
 T 66500 58900 5 10 0 0 0 0 1
-value=JUMPER3
+value=PLS
 T 66800 58700 5 10 1 1 0 0 1
 comment=CAN
 }
@@ -2767,7 +2767,7 @@ device=TESTPOINT
 T 35700 47600 5 10 0 0 0 0 1
 footprint=JUMPER1
 T 35300 46900 5 10 0 0 0 0 1
-value=JUMPER1
+value=PLS
 }
 C 39100 46900 1 0 0 testpt-1.sym
 {
@@ -2778,7 +2778,7 @@ device=TESTPOINT
 T 39500 47600 5 10 0 0 0 0 1
 footprint=JUMPER1
 T 39100 46900 5 10 0 0 0 0 1
-value=JUMPER1
+value=PLS
 }
 C 40500 45600 1 0 0 testpt-1.sym
 {
@@ -2789,7 +2789,7 @@ device=TESTPOINT
 T 40900 46300 5 10 0 0 0 0 1
 footprint=JUMPER1
 T 40500 45600 5 10 0 0 0 0 1
-value=JUMPER1
+value=PLS
 }
 C 40500 45400 1 0 0 agnd.sym
 C 65100 61600 1 0 0 vcc.sym
@@ -2931,7 +2931,7 @@ refdes=J12
 T 60500 40800 5 8 0 0 0 0 1
 footprint=JUMPER2
 T 59500 41200 5 10 0 1 0 0 1
-value=JUMPER2
+value=PLS
 T 59800 41000 5 10 1 1 0 0 1
 comment=BAT
 }
@@ -2948,7 +2948,7 @@ refdes=J3
 T 39600 53000 5 8 0 0 0 6 1
 footprint=JUMPER2
 T 40600 53400 5 10 0 0 0 0 1
-value=JUMPER2
+value=PLS
 T 39700 53200 5 10 1 1 0 0 1
 comment=BOOT1
 }
@@ -2976,7 +2976,7 @@ footprint=JUMPER2
 T 59100 47000 5 10 1 1 0 0 1
 comment=BOOT0
 T 58900 47200 5 10 0 1 0 0 1
-value=JUMPER2
+value=PLS
 }
 C 58500 47000 1 0 1 resistor-2.sym
 {

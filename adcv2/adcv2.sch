@@ -75,7 +75,7 @@ device=CAPACITOR
 T 36300 53500 5 10 1 1 180 0 1
 refdes=C10
 T 36300 53100 5 10 1 1 180 0 1
-value=0.1u
+value=100n
 T 36200 52800 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -86,7 +86,7 @@ device=CAPACITOR
 T 36300 52400 5 10 1 1 180 0 1
 refdes=C13
 T 36300 52000 5 10 1 1 180 0 1
-value=0.1u
+value=100n
 T 36200 51700 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -112,7 +112,7 @@ device=CAPACITOR
 T 37900 52500 5 10 1 1 180 0 1
 refdes=C16
 T 37900 52100 5 10 1 1 180 0 1
-value=0.1u
+value=100n
 T 37800 52700 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -150,7 +150,7 @@ device=CAPACITOR
 T 36400 47300 5 10 1 1 180 6 1
 refdes=C23
 T 36400 46900 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 T 36100 47500 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -266,7 +266,7 @@ device=CAPACITOR
 T 37800 41800 5 10 1 1 180 0 1
 refdes=C35
 T 37800 41400 5 10 1 1 180 0 1
-value=0.1u
+value=100n
 T 37700 42000 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -288,7 +288,7 @@ device=CAPACITOR
 T 36400 41800 5 10 1 1 180 0 1
 refdes=C33
 T 36400 41400 5 10 1 1 180 0 1
-value=0.1u
+value=100n
 T 36300 42000 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -310,7 +310,7 @@ device=CAPACITOR
 T 35000 41800 5 10 1 1 180 0 1
 refdes=C30
 T 35000 41400 5 10 1 1 180 0 1
-value=0.1u
+value=100n
 T 34900 42000 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -358,7 +358,7 @@ device=CAPACITOR
 T 37800 44200 5 10 1 1 180 0 1
 refdes=C31
 T 37800 43800 5 10 1 1 180 0 1
-value=0.1u
+value=100n
 T 37700 44400 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -380,7 +380,7 @@ device=CAPACITOR
 T 36400 44200 5 10 1 1 180 0 1
 refdes=C27
 T 36400 43800 5 10 1 1 180 0 1
-value=0.1u
+value=100n
 T 36300 44400 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -402,7 +402,7 @@ device=CAPACITOR
 T 35000 44200 5 10 1 1 180 0 1
 refdes=C24
 T 35000 43800 5 10 1 1 180 0 1
-value=0.1u
+value=100n
 T 34900 44400 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -437,7 +437,7 @@ device=CAPACITOR
 T 33600 44200 5 10 1 1 180 0 1
 refdes=C20
 T 33600 43800 5 10 1 1 180 0 1
-value=0.1u
+value=100n
 T 33500 44400 5 10 0 1 0 0 1
 footprint=0603
 }
@@ -1078,7 +1078,7 @@ device=TESTPOINT
 T 27700 44400 5 10 0 0 0 0 1
 footprint=JUMPER1
 T 27300 43700 5 10 0 0 0 0 1
-value=TESTPOINT
+value=PLS
 }
 C 27700 41300 1 0 0 testpt-1.sym
 {
@@ -1089,7 +1089,7 @@ device=TESTPOINT
 T 28100 42000 5 10 0 0 0 0 1
 footprint=JUMPER1
 T 27700 41300 5 10 0 0 0 0 1
-value=TESTPOINT
+value=PLS
 }
 C 39000 39900 1 0 0 AD9248.sym
 {
@@ -1309,7 +1309,7 @@ footprint=0603
 T 23400 52600 5 10 1 1 180 0 1
 refdes=C1
 T 23400 52200 5 10 1 1 180 0 1
-value=0.1u
+value=100n
 }
 C 23700 46900 1 90 0 capacitor-1.sym
 {
@@ -1320,7 +1320,7 @@ footprint=0603
 T 23400 47600 5 10 1 1 180 0 1
 refdes=C3
 T 23400 47200 5 10 1 1 180 0 1
-value=0.1u
+value=100n
 }
 C 24700 46700 1 0 0 agnd.sym
 N 24800 46900 24800 47100 4
@@ -1608,7 +1608,7 @@ footprint=JUMPER1
 T 27800 46100 5 10 1 1 0 0 1
 refdes=TP2
 T 27700 45700 5 10 0 0 0 0 1
-value=TESTPOINT
+value=PLS
 }
 C 50000 52000 1 0 1 led-2.sym
 {
@@ -1984,7 +1984,7 @@ device=TESTPOINT
 T 32600 45100 5 10 0 0 0 0 1
 footprint=JUMPER1
 T 32200 44400 5 10 0 0 0 0 1
-value=TESTPOINT
+value=PLS
 }
 C 33600 42000 1 0 0 testpt-1.sym
 {
@@ -1995,7 +1995,7 @@ device=TESTPOINT
 T 34000 42700 5 10 0 0 0 0 1
 footprint=JUMPER1
 T 33600 42000 5 10 0 0 0 0 1
-value=TESTPOINT
+value=PLS
 }
 C 19000 44500 1 0 0 BNX016.sym
 {
@@ -2034,7 +2034,7 @@ device=TESTPOINT
 T 21800 46000 5 10 0 0 0 0 1
 footprint=JUMPER1
 T 21400 45300 5 10 0 0 0 0 1
-value=TESTPOINT
+value=PLS
 }
 C 48100 42600 1 0 1 led-2.sym
 {

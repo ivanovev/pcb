@@ -1079,7 +1079,7 @@ Element["" "0603" "R16" "10k" 11.2500mm 36.7500mm -31.50mil -31.50mil 0 100 ""]
 
 	)
 
-Element["" "HEADER20_2" "J4" "HEADER20" 3.2300mm 13.3700mm -0.8400mm -2.9400mm 0 100 ""]
+Element["" "HEADER20_2" "J4" "BH-20" 3.2300mm 13.3700mm -0.8400mm -2.9400mm 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 40.00mil 66.00mil 38.00mil "1" "1" "square"]
 	Pin[100.00mil 0.0000 60.00mil 40.00mil 66.00mil 38.00mil "2" "2" "thermal(0S,1S,3S)"]
@@ -1249,7 +1249,7 @@ Element["onsolder" "0402" "C22" "100n" 17.2500mm 23.0000mm 31.50mil -31.50mil 2 
 
 	)
 
-Element["" "HEADER10_2" "J3" "HEADER10" 24.9200mm 3.2000mm 75.00mil -25.00mil 0 100 ""]
+Element["" "HEADER10_2" "J3" "BH-10" 24.9200mm 3.2000mm 75.00mil -25.00mil 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 42.00mil 66.00mil 38.00mil "1" "1" "square,edge2"]
 	Pin[0.0000 100.00mil 60.00mil 40.00mil 66.00mil 38.00mil "2" "2" "edge2,thermal(0S,1S,3X,4X)"]
@@ -1354,7 +1354,7 @@ Element["onsolder" "0402" "C50" "100n" 38.0000mm 27.0000mm 31.50mil 31.50mil 3 1
 
 	)
 
-Element["" "HEADER10_2" "J5" "HEADER10" 45.2400mm 3.2000mm 75.00mil -25.00mil 0 100 ""]
+Element["" "HEADER10_2" "J5" "BH-10" 45.2400mm 3.2000mm 75.00mil -25.00mil 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 40.00mil 66.00mil 38.00mil "1" "1" "square,edge2"]
 	Pin[0.0000 100.00mil 60.00mil 40.00mil 66.00mil 38.00mil "2" "2" "edge2,thermal(0S,1S,3S)"]
@@ -1626,7 +1626,7 @@ Element["" "0805" "C1" "4.7u" 45.5000mm 59.0000mm -31.50mil -31.50mil 0 100 ""]
 
 	)
 
-Element["" "JUMPER1" "TP2" "TESTPOINT" 42.2500mm 54.7500mm -50.00mil -50.00mil 3 100 ""]
+Element["" "JUMPER1" "TP2" "PLS" 42.2500mm 54.7500mm -50.00mil -50.00mil 3 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,thermal(2X)"]
 	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
@@ -1661,7 +1661,7 @@ Element["" "BNX016" "U1" "BNX016-01" 45.5000mm 68.5000mm -0.2500mm 3.9721mm 0 10
 
 	)
 
-Element["" "JUMPER1" "TP1" "TESTPOINT" 42.2500mm 59.0000mm -50.00mil -50.00mil 3 100 ""]
+Element["" "JUMPER1" "TP1" "PLS" 42.2500mm 59.0000mm -50.00mil -50.00mil 3 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,thermal(0X,1X,3X)"]
 	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
@@ -1701,7 +1701,7 @@ Element["" "0603" "R7" "187k" 24.4000mm 44.7500mm -31.50mil -31.50mil 0 100 ""]
 
 	)
 
-Element["" "JUMPER1" "TP4" "TESTPOINT" 19.0000mm 43.0000mm -50.00mil -50.00mil 3 100 ""]
+Element["" "JUMPER1" "TP4" "PLS" 19.0000mm 43.0000mm -50.00mil -50.00mil 3 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
 	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
@@ -1713,7 +1713,7 @@ Element["" "JUMPER1" "TP4" "TESTPOINT" 19.0000mm 43.0000mm -50.00mil -50.00mil 3
 
 	)
 
-Element["" "JUMPER1" "TP3" "TESTPOINT" 27.0000mm 43.0000mm 50.00mil 50.00mil 1 100 ""]
+Element["" "JUMPER1" "TP3" "PLS" 27.0000mm 43.0000mm 50.00mil 50.00mil 1 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square"]
 	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
@@ -1725,7 +1725,7 @@ Element["" "JUMPER1" "TP3" "TESTPOINT" 27.0000mm 43.0000mm 50.00mil 50.00mil 1 1
 
 	)
 
-Element["" "JUMPER1" "TP5" "TESTPOINT" 10.7500mm 52.2500mm -50.00mil -50.00mil 3 100 ""]
+Element["" "JUMPER1" "TP5" "PLS" 10.7500mm 52.2500mm -50.00mil -50.00mil 3 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,thermal(2S)"]
 	ElementLine [-50.00mil -50.00mil -50.00mil 50.00mil 10.00mil]
@@ -1848,7 +1848,7 @@ Element["" "QFN24_4_EP" "U3" "LM26480SQ-AA" 23.0000mm 53.5000mm -0.5039mm -0.770
 
 	)
 
-Element["" "JUMPER1" "TP6" "TESTPOINT" 35.5000mm 52.2500mm 50.00mil 50.00mil 1 100 ""]
+Element["" "JUMPER1" "TP6" "PLS" 35.5000mm 52.2500mm 50.00mil 50.00mil 1 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,thermal(2S)"]
 	ElementLine [50.00mil -50.00mil 50.00mil 50.00mil 10.00mil]
@@ -2069,7 +2069,7 @@ Element["" "0603" "D2" "BLHKB36A" 18.2500mm 38.7500mm -31.50mil -31.50mil 0 100 
 
 	)
 
-Element["" "HEADER40_2" "J2" "HEADER40" 54.2300mm 13.3700mm 0.3200mm -2.9400mm 0 100 ""]
+Element["" "HEADER40_2" "J2" "BH-40" 54.2300mm 13.3700mm 0.3200mm -2.9400mm 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 40.00mil 66.00mil 38.00mil "1" "1" "square"]
 	Pin[100.00mil 0.0000 60.00mil 40.00mil 66.00mil 38.00mil "2" "2" ""]

@@ -1703,7 +1703,7 @@ Element["" "0603" "C23" "470p" 33.4000mm 15.5000mm -31.50mil -31.50mil 0 100 ""]
 
 	)
 
-Element["" "JUMPER1" "TP3" "JUMPER1" 26.5000mm 28.5000mm -50.00mil 50.00mil 0 100 ""]
+Element["" "JUMPER1" "TP3" "PLS" 26.5000mm 28.5000mm -50.00mil 50.00mil 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,thermal(2X)"]
 	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
@@ -1776,7 +1776,7 @@ Element["" "0603" "C12" "100p" 133.8500mm 52.5000mm -31.50mil -31.50mil 0 100 ""
 
 	)
 
-Element["" "JUMPER1" "TP2" "JUMPER1" 45.0000mm 70.0000mm -50.00mil 50.00mil 0 100 ""]
+Element["" "JUMPER1" "TP2" "PLS" 45.0000mm 70.0000mm -50.00mil 50.00mil 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,thermal(0X,1X,3X)"]
 	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]
@@ -1788,7 +1788,7 @@ Element["" "JUMPER1" "TP2" "JUMPER1" 45.0000mm 70.0000mm -50.00mil 50.00mil 0 10
 
 	)
 
-Element["" "JUMPER1" "TP1" "JUMPER1" 40.0000mm 70.0000mm -50.00mil 50.00mil 0 100 ""]
+Element["" "JUMPER1" "TP1" "PLS" 40.0000mm 70.0000mm -50.00mil 50.00mil 0 100 ""]
 (
 	Pin[0.0000 0.0000 60.00mil 30.00mil 66.00mil 38.00mil "1" "1" "square,thermal(2X)"]
 	ElementLine [-50.00mil 50.00mil 50.00mil 50.00mil 10.00mil]

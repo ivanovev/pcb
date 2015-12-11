@@ -62,7 +62,7 @@ footprint=JUMPER1
 T 38100 37500 5 10 1 1 0 0 1
 refdes=TP1
 T 37900 37400 5 10 0 1 0 0 1
-value=JUMPER1
+value=PLS
 }
 N 37700 37400 38000 37400 4
 C 37900 36200 1 0 0 agnd.sym
@@ -415,7 +415,7 @@ footprint=JUMPER1
 T 45600 34900 5 10 1 1 0 0 1
 refdes=TP6
 T 45400 34800 5 10 0 1 0 0 1
-value=JUMPER1
+value=PLS
 }
 C 44400 31800 1 0 0 testpt-1.sym
 {
@@ -426,7 +426,7 @@ footprint=JUMPER1
 T 44600 31900 5 10 1 1 0 0 1
 refdes=TP8
 T 44400 31800 5 10 0 1 0 0 1
-value=JUMPER1
+value=PLS
 }
 C 53200 31800 1 0 0 testpt-1.sym
 {
@@ -437,7 +437,7 @@ footprint=JUMPER1
 T 53400 31900 5 10 1 1 0 0 1
 refdes=TP11
 T 53200 31800 5 10 0 1 0 0 1
-value=JUMPER1
+value=PLS
 }
 C 45600 33900 1 90 0 resistor-2.sym
 {
@@ -619,7 +619,7 @@ refdes=J5
 T 55200 34100 5 8 0 1 0 6 1
 footprint=HEADER10_2
 T 56200 33300 5 10 0 1 0 0 1
-value=HEADER10
+value=BH-10
 }
 T 56300 34700 9 10 1 0 0 0 1
 SPI_MISO
@@ -847,7 +847,7 @@ footprint=0603
 T 39000 45000 5 10 1 1 0 6 1
 refdes=C25
 T 39300 45000 5 10 1 1 0 0 1
-value=0.1u
+value=100n
 }
 C 39900 44800 1 90 0 agnd.sym
 N 39700 44900 39600 44900 4
@@ -965,7 +965,7 @@ footprint=0603
 T 46000 45000 5 10 1 1 0 6 1
 refdes=C42
 T 46300 45000 5 10 1 1 0 0 1
-value=0.1u
+value=100n
 }
 N 45600 45300 45600 44600 4
 C 44300 45000 1 270 0 agnd.sym
@@ -1359,7 +1359,7 @@ footprint=JUMPER1
 T 67200 36400 5 10 1 1 0 0 1
 refdes=TP12
 T 67300 36000 5 10 0 1 0 0 1
-value=JUMPER1
+value=PLS
 }
 C 56300 50400 1 0 1 io-1.sym
 {
@@ -1591,7 +1591,7 @@ footprint=0402
 T 52000 56100 5 10 1 1 0 0 1
 refdes=C27
 T 52000 55800 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 52400 55500 1 270 1 capacitor-1.sym
 {
@@ -1613,7 +1613,7 @@ footprint=0402
 T 53200 56100 5 10 1 1 0 0 1
 refdes=C31
 T 53200 55800 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 53600 55500 1 270 1 capacitor-1.sym
 {
@@ -1635,7 +1635,7 @@ footprint=0402
 T 54400 56100 5 10 1 1 0 0 1
 refdes=C33
 T 54400 55800 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 54800 55500 1 270 1 capacitor-1.sym
 {
@@ -1657,7 +1657,7 @@ footprint=0402
 T 55600 56100 5 10 1 1 0 0 1
 refdes=C36
 T 55600 55800 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 N 51400 55500 56800 55500 4
 C 58500 56400 1 0 1 vcc.sym
@@ -1693,7 +1693,7 @@ footprint=0402
 T 56800 56100 5 10 1 1 0 0 1
 refdes=C41
 T 56800 55800 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 60300 56400 1 0 1 vcc.sym
 {
@@ -1726,7 +1726,7 @@ footprint=0402
 T 61400 56100 5 10 1 1 0 0 1
 refdes=C51
 T 61400 55800 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 61800 55500 1 270 1 capacitor-1.sym
 {
@@ -1748,7 +1748,7 @@ footprint=0402
 T 62600 56100 5 10 1 1 0 0 1
 refdes=C57
 T 62600 55800 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 N 60800 55500 62600 55500 4
 N 62600 56400 60200 56400 4
@@ -1762,7 +1762,7 @@ footprint=0402
 T 65800 56100 5 10 1 1 0 0 1
 refdes=C64
 T 65800 55800 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 66200 55500 1 270 1 capacitor-1.sym
 {
@@ -1773,7 +1773,7 @@ footprint=0402
 T 66400 56100 5 10 1 1 0 0 1
 refdes=C65
 T 66400 55800 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 66800 55500 1 270 1 capacitor-1.sym
 {
@@ -1784,7 +1784,7 @@ footprint=0402
 T 67000 56100 5 10 1 1 0 0 1
 refdes=C68
 T 67000 55800 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 67400 55500 1 270 1 capacitor-1.sym
 {
@@ -1795,7 +1795,7 @@ footprint=0402
 T 67600 56100 5 10 1 1 0 0 1
 refdes=C71
 T 67600 55800 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 68000 55500 1 270 1 capacitor-1.sym
 {
@@ -1806,7 +1806,7 @@ footprint=0402
 T 68200 56100 5 10 1 1 0 0 1
 refdes=C74
 T 68200 55800 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 69700 56400 1 0 1 vcc.sym
 {
@@ -1831,7 +1831,7 @@ footprint=0402
 T 71700 56100 5 10 1 1 0 0 1
 refdes=C91
 T 71700 55800 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 N 71700 56400 71200 56400 4
 C 73600 51900 1 180 0 capacitor-1.sym
@@ -1843,7 +1843,7 @@ footprint=0603
 T 73000 51500 5 10 1 1 0 6 1
 refdes=C96
 T 73300 51500 5 10 1 1 0 0 1
-value=0.1u
+value=100n
 }
 C 74000 51600 1 90 0 agnd.sym
 N 72700 51700 72500 51700 4
@@ -1869,7 +1869,7 @@ footprint=0603
 T 67400 41100 5 10 1 1 0 0 1
 refdes=C102
 T 67400 40800 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 C 67800 40500 1 270 1 capacitor-1.sym
 {
@@ -1943,7 +1943,7 @@ footprint=JUMPER1
 T 67600 33500 5 10 1 1 0 6 1
 refdes=TP14
 T 67500 33100 5 10 0 1 0 6 1
-value=JUMPER1
+value=PLS
 }
 N 66300 33100 66400 33100 4
 C 72700 45100 1 180 0 resistor-2.sym
@@ -2047,7 +2047,7 @@ footprint=0402
 T 68900 46300 5 10 1 1 0 0 1
 refdes=C97
 T 68900 46000 5 10 1 1 180 6 1
-value=0.1u
+value=100n
 }
 N 68900 46600 71600 46600 4
 N 71600 46600 71600 45900 4
@@ -2073,7 +2073,7 @@ footprint=0603
 T 31400 58000 5 10 1 1 0 6 1
 refdes=C2
 T 31700 58000 5 10 1 1 0 0 1
-value=0.1u
+value=100n
 }
 N 30900 57900 31100 57900 4
 N 31000 57600 31000 57900 4
@@ -2176,7 +2176,7 @@ footprint=JUMPER1
 T 44500 40400 5 10 1 1 0 0 1
 refdes=TP3
 T 44300 40300 5 10 0 1 0 0 1
-value=JUMPER1
+value=PLS
 }
 C 38500 37800 1 0 0 testpt-1.sym
 {
@@ -2187,7 +2187,7 @@ footprint=JUMPER1
 T 38700 37900 5 10 1 1 0 0 1
 refdes=TP2
 T 38500 37800 5 10 0 1 0 0 1
-value=JUMPER1
+value=PLS
 }
 N 47100 43900 46900 43900 4
 C 27500 53200 1 180 0 capacitor-1.sym
@@ -2591,7 +2591,7 @@ footprint=0603
 T 66800 35600 5 10 1 1 0 6 1
 refdes=C107
 T 66900 35600 5 10 1 1 0 0 1
-value=0.1u
+value=100n
 }
 N 66400 36000 66300 36000 4
 N 66300 36000 66300 35500 4
@@ -2655,7 +2655,7 @@ footprint=JUMPER1
 T 61800 51500 5 10 1 1 0 0 1
 refdes=TP5
 T 61600 51300 5 10 0 1 0 0 1
-value=JUMPER1
+value=PLS
 }
 C 62600 44500 1 180 0 capacitor-1.sym
 {
@@ -2836,7 +2836,7 @@ device=TESTPOINT
 T 54300 41900 5 10 0 1 0 0 1
 footprint=JUMPER1
 T 53900 41200 5 10 0 1 0 0 1
-value=JUMPER1
+value=PLS
 T 54000 41600 5 10 1 1 0 0 1
 refdes=TP7
 }
@@ -2913,7 +2913,7 @@ device=TESTPOINT
 T 53900 39500 5 10 0 1 0 0 1
 footprint=JUMPER1
 T 53500 38800 5 10 0 1 0 0 1
-value=JUMPER1
+value=PLS
 T 53600 39200 5 10 1 1 0 0 1
 refdes=TP9
 }
@@ -2971,7 +2971,7 @@ device=TESTPOINT
 T 53600 36500 5 10 0 1 0 0 1
 footprint=JUMPER1
 T 53200 35800 5 10 0 1 0 0 1
-value=JUMPER1
+value=PLS
 T 53400 35900 5 10 1 1 0 0 1
 refdes=TP10
 }
@@ -3043,7 +3043,7 @@ device=TESTPOINT
 T 45600 38500 5 10 0 1 0 0 1
 footprint=JUMPER1
 T 45200 37800 5 10 0 1 0 0 1
-value=JUMPER1
+value=PLS
 T 45300 38200 5 10 1 1 0 0 1
 refdes=TP4
 }
@@ -3531,7 +3531,7 @@ footprint=0603
 T 55700 53300 5 10 1 1 0 6 1
 refdes=C108
 T 56000 53300 5 10 1 1 0 0 1
-value=0.1u
+value=100n
 }
 N 56300 52700 56500 52700 4
 N 56500 52700 56500 52900 4
@@ -3740,7 +3740,7 @@ footprint=JUMPER1
 T 71500 38700 5 10 1 1 0 0 1
 refdes=TP13
 T 71300 38700 5 10 0 1 0 0 1
-value=JUMPER1
+value=PLS
 }
 N 71400 33500 71200 33500 4
 C 71400 36200 1 0 0 output-1.sym
