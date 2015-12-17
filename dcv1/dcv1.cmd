@@ -402,15 +402,15 @@ ChangePinName(U3, 4, VCC)
 ChangePinName(U3, 6, Ouput)
 ChangePinName(U3, 3, Input)
 
-# Start of element U9
+# Start of element B1
 
-# Start of element U10
-ChangePinName(U10, 6, CG)
-ChangePinName(U10, 5, CG)
-ChangePinName(U10, 4, CG)
-ChangePinName(U10, 2, CB)
-ChangePinName(U10, 3, PSG)
-ChangePinName(U10, 1, B)
+# Start of element A1
+ChangePinName(A1, 6, CG)
+ChangePinName(A1, 5, CG)
+ChangePinName(A1, 4, CG)
+ChangePinName(A1, 2, CB)
+ChangePinName(A1, 3, PSG)
+ChangePinName(A1, 1, B)
 
 # Start of element VR1
 ChangePinName(VR1, 2, 2)
@@ -455,10 +455,6 @@ ChangePinName(TP13, 1, 1)
 # Start of element R59
 ChangePinName(R59, 1, 1)
 ChangePinName(R59, 2, 2)
-
-# Start of element R48
-ChangePinName(R48, 1, 1)
-ChangePinName(R48, 2, 2)
 
 # Start of element R68
 ChangePinName(R68, 1, 1)
@@ -1137,22 +1133,6 @@ ChangePinName(J5, 8, 8)
 ChangePinName(J5, 7, 7)
 ChangePinName(J5, 6, 6)
 ChangePinName(J5, 5, 5)
-
-# Start of element R43
-ChangePinName(R43, 1, 1)
-ChangePinName(R43, 2, 2)
-
-# Start of element R40
-ChangePinName(R40, 1, 1)
-ChangePinName(R40, 2, 2)
-
-# Start of element R39
-ChangePinName(R39, 1, 1)
-ChangePinName(R39, 2, 2)
-
-# Start of element R38
-ChangePinName(R38, 1, 1)
-ChangePinName(R38, 2, 2)
 
 # Start of element C69
 ChangePinName(C69, 2, 2)
