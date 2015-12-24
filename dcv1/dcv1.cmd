@@ -8,21 +8,9 @@ ChangePinName(R30, 2, 2)
 ChangePinName(R25, 1, 1)
 ChangePinName(R25, 2, 2)
 
-# Start of element C116
-ChangePinName(C116, 2, 2)
-ChangePinName(C116, 1, 1)
-
 # Start of element C115
 ChangePinName(C115, 2, 2)
 ChangePinName(C115, 1, 1)
-
-# Start of element C114
-ChangePinName(C114, 2, 2)
-ChangePinName(C114, 1, 1)
-
-# Start of element C113
-ChangePinName(C113, 2, 2)
-ChangePinName(C113, 1, 1)
 
 # Start of element C112
 ChangePinName(C112, 2, 2)
