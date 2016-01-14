@@ -1,0 +1,4 @@
+elements-dir /home/stitch/geda/gedasymbols/footprints
+schematics tmbamp1.sch
+output-name tmbamp1
+gnetlist partslist3
