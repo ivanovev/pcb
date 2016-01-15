@@ -1,0 +1,6 @@
+net(add, AGND, P-1)
+net(add, AGND, P-2)
+net(add, AGND, P-3)
+net(add, AGND, P-4)
+net(add, AGND, P-5)
+net(add, AGND, P-6)
