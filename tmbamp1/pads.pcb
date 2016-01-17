@@ -9,7 +9,7 @@ Grid[984.251969 0.0000 0.0000 1]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[0.2000mm 0.1000mm 0.2500mm 0.2000mm 0.2999mm 0.2000mm]
-Flags("nameonpcb,uniquename,clearnew")
+Flags("nameonpcb,uniquename,clearnew,snappin,locknames")
 Groups("1,c:2:3:4,s:5:6")
 Styles["Signal,0.2800mm,36.00mil,20.00mil,10.00mil:Power,24.00mil,60.00mil,35.00mil,10.00mil:Fat,28.00mil,6.0000mm,3.2000mm,10.00mil:Skinny,0.2500mm,0.7000mm,11.81mil,0.2000mm"]
 
@@ -788,14 +788,17 @@ Symbol['~' 12.00mil]
 Attribute("PCB::grid::unit" "mm")
 Attribute("PCB::grid::size" "0.2500mm")
 
-Element["" "" "P" "" 14.0000mm 9.0000mm 13.0000mm -9.0000mm 0 100 ""]
+Element["" "" "P" "" 14.0000mm 9.0000mm 12.7500mm -8.7500mm 0 100 ""]
 (
-	Pad[-13.5000mm 5.0000mm -13.5000mm 8.5000mm 1.0000mm 0.0000 1.5080mm "" "1" "edge2"]
-	Pad[-13.5000mm 8.5000mm 0.2500mm 8.5000mm 1.0000mm 0.0000 1.5080mm "" "2" ""]
-	Pad[2.7500mm 8.5000mm 8.2500mm 8.5000mm 1.0000mm 0.0000 1.5080mm "" "3" "edge2"]
-	Pad[12.0000mm 8.5000mm 13.5000mm 8.5000mm 1.0000mm 0.0000 1.5080mm "" "4" "edge2"]
-	Pad[13.5000mm -8.5000mm 13.5000mm 8.5000mm 1.0000mm 0.0000 1.5080mm "" "5" ""]
-	Pad[-0.2500mm -8.5000mm 13.5000mm -8.5000mm 1.0000mm 0.0000 1.5080mm "" "6" "edge2"]
+	Pin[0.0000 -8.0000mm 60.00mil 0.5016mm 66.00mil 38.00mil "" "1" "edge2"]
+	Pin[0.0000 8.0000mm 60.00mil 0.5016mm 66.00mil 38.00mil "" "2" "edge2"]
+	Pad[-13.5000mm -8.5000mm 13.5000mm -8.5000mm 1.0000mm 0.0000 1.5080mm "" "3" ""]
+	Pad[13.5000mm -8.5000mm 13.5000mm 8.5000mm 1.0000mm 0.0000 1.5080mm "" "4" ""]
+	Pad[11.7500mm 8.5000mm 13.5000mm 8.5000mm 1.0000mm 0.0000 1.5080mm "" "5" "edge2"]
+	Pad[3.7500mm 8.5000mm 8.2500mm 8.5000mm 1.0000mm 0.0000 1.5080mm "" "6" "edge2"]
+	Pad[-13.5000mm 8.5000mm 0.7500mm 8.5000mm 1.0000mm 0.0000 1.5080mm "" "7" ""]
+	Pad[-13.5000mm -2.2500mm -13.5000mm 8.5000mm 1.0000mm 0.0000 1.5080mm "" "8" "edge2"]
+	Pad[-13.5000mm -8.5000mm -13.5000mm -5.7500mm 1.0000mm 0.0000 1.5080mm "" "9" ""]
 
 	)
 Layer(1 "top")
@@ -877,6 +880,12 @@ NetList()
 		Connect("J2-6")
 		Connect("J3-2")
 		Connect("J4-2")
+		Connect("P-1")
+		Connect("P-2")
+		Connect("P-3")
+		Connect("P-4")
+		Connect("P-5")
+		Connect("P-6")
 		Connect("R11-1")
 		Connect("R12-2")
 		Connect("R13-1")
