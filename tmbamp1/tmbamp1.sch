@@ -563,7 +563,7 @@ refdes=J2
 T 36700 40000 5 8 0 0 0 6 1
 footprint=HEADER6_2
 T 37700 39600 5 10 0 0 0 0 1
-value=HEADER6
+value=BH-6
 }
 C 45100 41500 1 0 0 agnd.sym
 C 45300 43500 1 0 1 testpt-1.sym
@@ -597,7 +597,7 @@ footprint=0603
 T 49800 45200 5 10 1 1 0 6 1
 refdes=R16
 T 49800 45100 5 10 1 1 180 0 1
-value=5k
+value=5.1k
 }
 C 49900 43300 1 0 0 agnd.sym
 N 50000 44700 50000 44400 4
