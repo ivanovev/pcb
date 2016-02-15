@@ -1,0 +1,4 @@
+elements-dir /home/iev/geda/gedasymbols/footprints
+schematics cantest1.sch
+output-name cantest1
+gnetlist partslist3

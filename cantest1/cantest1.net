@@ -1,0 +1,15 @@
+unnamed_net8	U3-2 R7-1 R6-1 
+unnamed_net7	R4-2 D1-1 
+unnamed_net6	A1-1 J2-1 
+unnamed_net5	A1-3 J2-2 
+unnamed_net4	C4-2 U2-5 
+unnamed_net3	R3-1 U2-3 
+unnamed_net2	U2-6 TP2-1 C3-1 A1-2 U2-2 
+AGND	R1-2 C2-1 C1-2 C6-2 U3-3 R7-2 D1-2 C5-2 C3-2 TP1-1 A1-6 A1-5 A1-4 U2-4 J1-2 A2-3 U1-2 
+3V3	R5-2 TP4-1 C6-1 U3-1 R6-2 C2-2 U1-5 
+5V	R5-1 R3-2 C4-1 R4-1 TP3-1 C5-1 U2-1 C1-1 U1-3 
+CANL	J3-1 R2-2 A2-1 U1-6 
+CANH	J3-2 R2-1 A2-2 U1-7 
+unnamed_net1	R1-1 J1-4 U1-8 
+CAN_RX	J1-17 U1-4 
+CAN_TX	J1-18 U1-1 
