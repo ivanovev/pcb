@@ -30,7 +30,7 @@ refdes=J1
 T 24000 48900 5 10 0 1 0 0 1
 footprint=HEADER20_2
 T 24000 48900 5 10 0 1 0 0 1
-value=HEADER20
+value=BH-20
 }
 C 25600 52600 1 90 0 agnd.sym
 C 22300 49400 1 0 0 input-2.sym
