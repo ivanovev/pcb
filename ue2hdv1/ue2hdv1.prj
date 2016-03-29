@@ -1,0 +1,4 @@
+elements-dir /home/iev/geda/gedasymbols/footprints
+schematics ue2hdv1.sch
+output-name ue2hdv1
+gnetlist partslist3
