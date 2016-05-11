@@ -476,7 +476,7 @@ T 44400 30800 5 10 0 1 0 0 1
 value=CDRH4D28NP-100NC
 T 44000 30900 5 10 0 1 0 0 1
 footprint=CDRH4D
-T 44400 30800 5 10 1 1 0 0 1
+T 44500 30800 5 10 1 1 0 0 1
 comment=10u
 }
 N 43700 31000 44000 31000 4
@@ -701,7 +701,7 @@ device=CAPACITOR
 T 38000 44700 5 10 0 1 90 0 1
 footprint=0402
 T 37400 44600 5 10 1 1 0 6 1
-refdes=C25
+refdes=C23
 T 37700 44600 5 10 1 1 0 0 1
 value=1u
 }
@@ -715,7 +715,7 @@ device=CAPACITOR
 T 39100 44700 5 10 0 1 90 0 1
 footprint=0402
 T 38500 44600 5 10 1 1 0 6 1
-refdes=C31
+refdes=C30
 T 38800 44600 5 10 1 1 0 0 1
 value=100p
 }
@@ -780,7 +780,7 @@ device=CAPACITOR
 T 44300 43700 5 10 0 1 90 0 1
 footprint=0402
 T 43700 43600 5 10 1 1 0 6 1
-refdes=C40
+refdes=C41
 T 44000 43600 5 10 1 1 0 0 1
 value=10n
 }
@@ -818,7 +818,7 @@ device=CAPACITOR
 T 45200 44800 5 10 0 1 90 0 1
 footprint=0402
 T 44600 44700 5 10 1 1 0 6 1
-refdes=C38
+refdes=C39
 T 44900 44700 5 10 1 1 0 0 1
 value=100p
 }
@@ -829,7 +829,7 @@ device=CAPACITOR
 T 47300 44800 5 10 0 1 90 0 1
 footprint=0402
 T 46700 44700 5 10 1 1 0 6 1
-refdes=C45
+refdes=C46
 T 47000 44700 5 10 1 1 0 0 1
 value=100p
 }
@@ -900,7 +900,7 @@ device=CAPACITOR
 T 43600 49200 5 10 0 1 0 6 1
 footprint=0402
 T 43900 49800 5 10 1 1 0 0 1
-refdes=C30
+refdes=C31
 T 43900 49500 5 10 1 1 180 6 1
 value=1n
 }
@@ -916,7 +916,7 @@ device=CAPACITOR
 T 42900 48800 5 10 0 1 0 6 1
 footprint=0402
 T 43200 49400 5 10 1 1 0 0 1
-refdes=C28
+refdes=C29
 T 43200 49100 5 10 1 1 180 6 1
 value=1n
 }
@@ -929,7 +929,7 @@ device=CAPACITOR
 T 42200 48400 5 10 0 1 0 6 1
 footprint=0402
 T 42500 49000 5 10 1 1 0 0 1
-refdes=C26
+refdes=C27
 T 42500 48700 5 10 1 1 180 6 1
 value=1n
 }
@@ -941,7 +941,7 @@ device=CAPACITOR
 T 41500 48000 5 10 0 1 0 6 1
 footprint=0402
 T 41800 48600 5 10 1 1 0 0 1
-refdes=C23
+refdes=C24
 T 41800 48300 5 10 1 1 180 6 1
 value=1n
 }
@@ -1519,7 +1519,7 @@ device=CAPACITOR
 T 58000 57200 5 10 0 1 0 6 1
 footprint=0402
 T 58200 57800 5 10 1 1 0 0 1
-refdes=C43
+refdes=C42
 T 58200 57500 5 10 1 1 180 6 1
 value=100n
 }
@@ -2137,7 +2137,7 @@ device=CAPACITOR
 T 48100 53900 5 10 0 1 90 0 1
 footprint=0402
 T 47500 53800 5 10 1 1 0 6 1
-refdes=C27
+refdes=C28
 T 47800 53800 5 10 1 1 0 0 1
 value=100p
 }
@@ -2265,7 +2265,7 @@ device=CAPACITOR
 T 48400 54900 5 10 0 1 0 6 1
 footprint=0603
 T 48700 55500 5 10 1 1 0 0 1
-refdes=C24
+refdes=C25
 T 48700 55200 5 10 1 1 180 6 1
 value=2.2u
 }
@@ -2310,7 +2310,7 @@ device=CAPACITOR
 T 35800 42200 5 10 0 1 0 6 1
 footprint=0603
 T 36100 42800 5 10 1 1 0 0 1
-refdes=C29
+refdes=C26
 T 36100 42500 5 10 1 1 180 6 1
 value=2.2u
 }
@@ -2512,7 +2512,7 @@ device=CAPACITOR
 T 56300 53900 5 10 0 1 90 0 1
 footprint=0603
 T 55700 53800 5 10 1 1 0 6 1
-refdes=C46
+refdes=C45
 T 56000 53800 5 10 1 1 0 0 1
 value=DNI
 }
@@ -3305,7 +3305,7 @@ device=CAPACITOR
 T 53600 53200 5 10 0 1 0 6 1
 footprint=0603
 T 53800 53800 5 10 1 1 0 0 1
-refdes=C41
+refdes=C40
 T 53800 53500 5 10 1 1 180 6 1
 value=DNI
 }
@@ -4418,7 +4418,7 @@ device=CAPACITOR
 T 57400 57200 5 10 0 1 0 6 1
 footprint=0805
 T 57600 57800 5 10 1 1 0 0 1
-refdes=C39
+refdes=C38
 T 57600 57500 5 10 1 1 180 6 1
 value=10u
 }
@@ -4810,7 +4810,7 @@ device=CAPACITOR
 T 44300 43300 5 10 0 1 90 0 1
 footprint=0402
 T 43700 43200 5 10 1 1 0 6 1
-refdes=C42
+refdes=C43
 T 44000 43200 5 10 1 1 0 0 1
 value=10n
 }
