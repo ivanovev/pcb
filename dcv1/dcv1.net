@@ -70,9 +70,9 @@ unnamed_net66	U5-29 L4-1 C18-2
 unnamed_net65	U6-1 C18-1 
 unnamed_net64	U5-24 R8-1 
 unnamed_net63	U1-5 R5-1 
-VFCTL	U24-13 R5-2 
+VFCTL	U24-12 R5-2 
 unnamed_net62	U1-3 R3-1 
-VBWCTL	U24-12 R3-2 
+VBWCTL	U24-13 R3-2 
 unnamed_net61	U3-6 L1-2 C6-2 
 unnamed_net60	U4-6 C6-1 
 unnamed_net59	J1-1 C4-2 
