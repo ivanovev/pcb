@@ -1,5 +1,17 @@
 # Pin name action command file
 
+# Start of element R62
+ChangePinName(R62, 1, 1)
+ChangePinName(R62, 2, 2)
+
+# Start of element R49
+ChangePinName(R49, 1, 1)
+ChangePinName(R49, 2, 2)
+
+# Start of element R28
+ChangePinName(R28, 1, 1)
+ChangePinName(R28, 2, 2)
+
 # Start of element C126
 ChangePinName(C126, 2, 2)
 ChangePinName(C126, 1, 1)
@@ -82,17 +94,17 @@ ChangePinName(C114, 1, 1)
 ChangePinName(C111, 2, 2)
 ChangePinName(C111, 1, 1)
 
-# Start of element R47
-ChangePinName(R47, 1, 1)
-ChangePinName(R47, 2, 2)
-
-# Start of element R50
-ChangePinName(R50, 1, 1)
-ChangePinName(R50, 2, 2)
+# Start of element R48
+ChangePinName(R48, 1, 1)
+ChangePinName(R48, 2, 2)
 
 # Start of element R52
 ChangePinName(R52, 1, 1)
 ChangePinName(R52, 2, 2)
+
+# Start of element R54
+ChangePinName(R54, 1, 1)
+ChangePinName(R54, 2, 2)
 
 # Start of element U20
 ChangePinName(U20, 5, V-)
@@ -132,13 +144,13 @@ ChangePinName(U17, 9, RF1)
 ChangePinName(C106, 2, 2)
 ChangePinName(C106, 1, 1)
 
-# Start of element R39
-ChangePinName(R39, 1, 1)
-ChangePinName(R39, 2, 2)
+# Start of element R40
+ChangePinName(R40, 1, 1)
+ChangePinName(R40, 2, 2)
 
-# Start of element R37
-ChangePinName(R37, 1, 1)
-ChangePinName(R37, 2, 2)
+# Start of element R38
+ChangePinName(R38, 1, 1)
+ChangePinName(R38, 2, 2)
 
 # Start of element C104
 ChangePinName(C104, 2, 2)
@@ -564,25 +576,25 @@ ChangePinName(VR1, 2, 2)
 ChangePinName(VR1, 3, 3)
 ChangePinName(VR1, 1, 1)
 
-# Start of element R36
-ChangePinName(R36, 1, 1)
-ChangePinName(R36, 2, 2)
+# Start of element R37
+ChangePinName(R37, 1, 1)
+ChangePinName(R37, 2, 2)
 
 # Start of element D3
 ChangePinName(D3, 2, 2)
 ChangePinName(D3, 1, 1)
 
-# Start of element R34
-ChangePinName(R34, 1, 1)
-ChangePinName(R34, 2, 2)
+# Start of element R35
+ChangePinName(R35, 1, 1)
+ChangePinName(R35, 2, 2)
 
 # Start of element D2
 ChangePinName(D2, 2, 2)
 ChangePinName(D2, 1, 1)
 
-# Start of element R32
-ChangePinName(R32, 1, 1)
-ChangePinName(R32, 2, 2)
+# Start of element R33
+ChangePinName(R33, 1, 1)
+ChangePinName(R33, 2, 2)
 
 # Start of element D1
 ChangePinName(D1, 2, 2)
@@ -591,13 +603,13 @@ ChangePinName(D1, 1, 1)
 # Start of element TP12
 ChangePinName(TP12, 1, 1)
 
-# Start of element R58
-ChangePinName(R58, 1, 1)
-ChangePinName(R58, 2, 2)
+# Start of element R60
+ChangePinName(R60, 1, 1)
+ChangePinName(R60, 2, 2)
 
-# Start of element R33
-ChangePinName(R33, 1, 1)
-ChangePinName(R33, 2, 2)
+# Start of element R34
+ChangePinName(R34, 1, 1)
+ChangePinName(R34, 2, 2)
 
 # Start of element C40
 ChangePinName(C40, 2, 2)
@@ -626,57 +638,57 @@ ChangePinName(U8, 3, GND)
 ChangePinName(C37, 2, 2)
 ChangePinName(C37, 1, 1)
 
-# Start of element R45
-ChangePinName(R45, 1, 1)
-ChangePinName(R45, 2, 2)
+# Start of element R46
+ChangePinName(R46, 1, 1)
+ChangePinName(R46, 2, 2)
 
 # Start of element D5
 ChangePinName(D5, 2, 2)
 ChangePinName(D5, 1, 1)
 
-# Start of element R41
-ChangePinName(R41, 1, 1)
-ChangePinName(R41, 2, 2)
-
 # Start of element R42
 ChangePinName(R42, 1, 1)
 ChangePinName(R42, 2, 2)
 
-# Start of element R60
-ChangePinName(R60, 1, 1)
-ChangePinName(R60, 2, 2)
+# Start of element R43
+ChangePinName(R43, 1, 1)
+ChangePinName(R43, 2, 2)
 
-# Start of element R57
-ChangePinName(R57, 1, 1)
-ChangePinName(R57, 2, 2)
+# Start of element R63
+ChangePinName(R63, 1, 1)
+ChangePinName(R63, 2, 2)
 
-# Start of element R28
-ChangePinName(R28, 1, 1)
-ChangePinName(R28, 2, 2)
+# Start of element R59
+ChangePinName(R59, 1, 1)
+ChangePinName(R59, 2, 2)
 
-# Start of element R61
-ChangePinName(R61, 1, 1)
-ChangePinName(R61, 2, 2)
+# Start of element R29
+ChangePinName(R29, 1, 1)
+ChangePinName(R29, 2, 2)
 
-# Start of element R62
-ChangePinName(R62, 1, 1)
-ChangePinName(R62, 2, 2)
+# Start of element R64
+ChangePinName(R64, 1, 1)
+ChangePinName(R64, 2, 2)
 
-# Start of element R49
-ChangePinName(R49, 1, 1)
-ChangePinName(R49, 2, 2)
+# Start of element R65
+ChangePinName(R65, 1, 1)
+ChangePinName(R65, 2, 2)
 
-# Start of element R53
-ChangePinName(R53, 1, 1)
-ChangePinName(R53, 2, 2)
+# Start of element R51
+ChangePinName(R51, 1, 1)
+ChangePinName(R51, 2, 2)
 
 # Start of element R55
 ChangePinName(R55, 1, 1)
 ChangePinName(R55, 2, 2)
 
-# Start of element R44
-ChangePinName(R44, 1, 1)
-ChangePinName(R44, 2, 2)
+# Start of element R57
+ChangePinName(R57, 1, 1)
+ChangePinName(R57, 2, 2)
+
+# Start of element R45
+ChangePinName(R45, 1, 1)
+ChangePinName(R45, 2, 2)
 
 # Start of element D4
 ChangePinName(D4, 2, 2)
@@ -750,17 +762,17 @@ ChangePinName(R19, 2, 2)
 ChangePinName(C46, 2, 2)
 ChangePinName(C46, 1, 1)
 
-# Start of element R31
-ChangePinName(R31, 1, 1)
-ChangePinName(R31, 2, 2)
+# Start of element R32
+ChangePinName(R32, 1, 1)
+ChangePinName(R32, 2, 2)
 
-# Start of element R38
-ChangePinName(R38, 1, 1)
-ChangePinName(R38, 2, 2)
+# Start of element R39
+ChangePinName(R39, 1, 1)
+ChangePinName(R39, 2, 2)
 
-# Start of element R35
-ChangePinName(R35, 1, 1)
-ChangePinName(R35, 2, 2)
+# Start of element R36
+ChangePinName(R36, 1, 1)
+ChangePinName(R36, 2, 2)
 
 # Start of element C99
 ChangePinName(C99, 2, 2)
@@ -785,9 +797,9 @@ ChangePinName(C123, 1, 1)
 ChangePinName(C122, 2, 2)
 ChangePinName(C122, 1, 1)
 
-# Start of element R56
-ChangePinName(R56, 1, 1)
-ChangePinName(R56, 2, 2)
+# Start of element R58
+ChangePinName(R58, 1, 1)
+ChangePinName(R58, 2, 2)
 
 # Start of element C53
 ChangePinName(C53, 2, 2)
@@ -912,24 +924,24 @@ ChangePinName(C1, 1, 1)
 ChangePinName(C110, 2, 2)
 ChangePinName(C110, 1, 1)
 
-# Start of element R48
-ChangePinName(R48, 1, 1)
-ChangePinName(R48, 2, 2)
+# Start of element R50
+ChangePinName(R50, 1, 1)
+ChangePinName(R50, 2, 2)
 
-# Start of element R51
-ChangePinName(R51, 1, 1)
-ChangePinName(R51, 2, 2)
+# Start of element R53
+ChangePinName(R53, 1, 1)
+ChangePinName(R53, 2, 2)
 
-# Start of element R54
-ChangePinName(R54, 1, 1)
-ChangePinName(R54, 2, 2)
+# Start of element R56
+ChangePinName(R56, 1, 1)
+ChangePinName(R56, 2, 2)
 
 # Start of element TP13
 ChangePinName(TP13, 1, 1)
 
-# Start of element R59
-ChangePinName(R59, 1, 1)
-ChangePinName(R59, 2, 2)
+# Start of element R61
+ChangePinName(R61, 1, 1)
+ChangePinName(R61, 2, 2)
 
 # Start of element C121
 ChangePinName(C121, 2, 2)
@@ -1126,9 +1138,9 @@ ChangePinName(C113, 1, 1)
 ChangePinName(C112, 2, 2)
 ChangePinName(C112, 1, 1)
 
-# Start of element R46
-ChangePinName(R46, 1, 1)
-ChangePinName(R46, 2, 2)
+# Start of element R47
+ChangePinName(R47, 1, 1)
+ChangePinName(R47, 2, 2)
 
 # Start of element R17
 ChangePinName(R17, 1, 1)
@@ -1214,13 +1226,13 @@ ChangePinName(R11, 2, 2)
 ChangePinName(R10, 1, 1)
 ChangePinName(R10, 2, 2)
 
-# Start of element R43
-ChangePinName(R43, 1, 1)
-ChangePinName(R43, 2, 2)
+# Start of element R44
+ChangePinName(R44, 1, 1)
+ChangePinName(R44, 2, 2)
 
-# Start of element R40
-ChangePinName(R40, 1, 1)
-ChangePinName(R40, 2, 2)
+# Start of element R41
+ChangePinName(R41, 1, 1)
+ChangePinName(R41, 2, 2)
 
 # Start of element J7
 ChangePinName(J7, 10, 10)
@@ -1242,13 +1254,13 @@ ChangePinName(C64, 1, 1)
 ChangePinName(C90, 2, 2)
 ChangePinName(C90, 1, 1)
 
+# Start of element R31
+ChangePinName(R31, 1, 1)
+ChangePinName(R31, 2, 2)
+
 # Start of element R30
 ChangePinName(R30, 1, 1)
 ChangePinName(R30, 2, 2)
-
-# Start of element R29
-ChangePinName(R29, 1, 1)
-ChangePinName(R29, 2, 2)
 
 # Start of element R25
 ChangePinName(R25, 1, 1)
