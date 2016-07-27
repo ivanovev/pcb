@@ -1,0 +1,9 @@
+1. Always check PIN1 (U3, U12)
+2. LMP92018 (U24) footprint error
+3. RFSW6042 (U15) footprint error
+4. R50-2 close to PL8
+5. C77-2 --- U12-10
+6. R5-2 --- U24-12
+7. ABA54563 (U3) pin1 (no mark)
+9. delete LMC7101 (U20)
+9. 5.1kOhm -> 0402
