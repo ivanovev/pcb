@@ -5,5 +5,7 @@
 5. C77-2 --- U12-10
 6. R5-2 --- U24-12
 7. ABA54563 (U3) pin1 (no mark)
-9. delete LMC7101 (U20)
 9. 5.1kOhm -> 0402
+10. ADRF6820 3V3 must never exceed 5V (powerup sequence)
+11. HMC625 SEROUT (needs to be hi-z)
+12. LMC7101 (U20) -> input/5, then repeat
