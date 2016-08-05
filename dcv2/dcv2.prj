@@ -1,4 +1,4 @@
 elements-dir /home/iev/geda/gedasymbols/footprints
-schematics dcv1.sch
-output-name dcv1
+schematics dcv2.sch
+output-name dcv2
 gnetlist partslist3
