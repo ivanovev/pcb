@@ -1,5 +1,5 @@
-unnamed_net108	U17-11 C76-1 
-unnamed_net107	U17-6 C66-2 
+unnamed_net108	U17-4 C76-1 
+unnamed_net107	U17-9 C66-2 
 SD2	U24-24 U9-7 
 SD1	U24-23 U9-12 
 FILTB	U24-21 U9-6 
@@ -55,11 +55,11 @@ TESTSEL0	U24-26 U17-2 C102-1 R36-1
 unnamed_net78	U17-7 C99-2 
 unnamed_net77	J5-1 C99-1 
 MUXOUT	U24-20 R46-1 U12-16 TP5-1 
-unnamed_net76	U17-9 C98-2 
+unnamed_net76	U17-6 C98-2 
 unnamed_net75	T1-1 C98-1 
 SPI_CS0	U22-10 U24-6 R58-1 
 unnamed_net74	U9-10 C53-2 
-unnamed_net73	U17-4 C53-1 
+unnamed_net73	U17-11 C53-1 
 unnamed_net72	U9-9 C52-2 
 REFIN	U12-39 C52-1 
 unnamed_net71	U7-1 VR1-2 C26-2 
