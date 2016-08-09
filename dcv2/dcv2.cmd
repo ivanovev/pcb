@@ -1,5 +1,9 @@
 # Pin name action command file
 
+# Start of element C129
+ChangePinName(C129, 2, 2)
+ChangePinName(C129, 1, 1)
+
 # Start of element U17
 ChangePinName(U17, 13, EP)
 ChangePinName(U17, 12, GND)
